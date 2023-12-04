@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="m" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="m">
+    <clashtests>
+      <clashtest name="6.- ARQ_REVESTIMIENTOS VS EST" test_type="hard" status="ok" tolerance="0.001" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Revestimiento Ceramica</locator>
+          </clashselection>
+        </left>
+        <rules/>
+        <summary total="7" new="7" active="0" reviewed="0" approved="0" resolved="0">
+          <testtype>Estático</testtype>
+          <teststatus>Aceptar</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Conflicto1" guid="aab62f85-ec82-4a3d-89a1-a3026a99e97b" href="6.- ARQ_REVESTIMIENTOS VS EST_files\cd050001.jpg" status="new" distance="-0.050">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="8.651" y="-0.100" z="8.370"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel 3 - AUL (+7.20)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="20" second="37"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1393085</value>
+                </objectattribute>
+                <layer>Nivel 3 - AUL (+7.20)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 3 - AUL (+7.20)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Recubrimiento Muro / Porcelanato - 30x60</node>
+                  <node>Muro básico</node>
+                  <node>0. Adhesivo Cerámica</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Adhesivo Cerámica</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311774</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V.S.I  318  30/167</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V.S.I  318  30/167</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto2" guid="cb4f8bcb-2ba8-4e22-9dd7-fd7a14631131" href="6.- ARQ_REVESTIMIENTOS VS EST_files\cd050002.jpg" status="new" distance="-0.030">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="7.249" y="-0.150" z="8.370"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel 3 - AUL (+7.20)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="20" second="37"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1393503</value>
+                </objectattribute>
+                <layer>Nivel 3 - AUL (+7.20)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 3 - AUL (+7.20)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Recubrimiento Muro / Porcelanato - 30x60</node>
+                  <node>Muro básico</node>
+                  <node>0. Adhesivo Cerámica</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Adhesivo Cerámica</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311774</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V.S.I  318  30/167</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V.S.I  318  30/167</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto3" guid="1e604614-8e64-4bc8-9399-03bc4aa75a95" href="6.- ARQ_REVESTIMIENTOS VS EST_files\cd050003.jpg" status="new" distance="-0.020">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="8.631" y="-0.150" z="8.370"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel 3 - AUL (+7.20)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="20" second="37"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1393216</value>
+                </objectattribute>
+                <layer>Nivel 3 - AUL (+7.20)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 3 - AUL (+7.20)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Recubrimiento Muro / Porcelanato - 30x60</node>
+                  <node>Muro básico</node>
+                  <node>0. Porcelanato 30x60</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Porcelanato 30x60</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311774</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V.S.I  318  30/167</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V.S.I  318  30/167</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto4" guid="deb26ced-7796-4380-99ac-ca2dd009f216" href="6.- ARQ_REVESTIMIENTOS VS EST_files\cd050004.jpg" status="new" distance="-0.008">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.100" y="-18.805" z="1.800"/>
+            </clashpoint>
+            <gridlocation>E&apos;-2 : Nivel 2 (+1.62)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="20" second="37"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1314774</value>
+                </objectattribute>
+                <layer>Nivel 1 (+0.00)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 1 (+0.00)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Recubrimiento Muro / Porcelanato - 30x60</node>
+                  <node>Muro básico</node>
+                  <node>0. Adhesivo Cerámica</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Adhesivo Cerámica</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>666600</value>
+                </objectattribute>
+                <layer>N.O.G. (1) -0.06 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (1) -0.06 AUL</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto5" guid="aadfda1f-ae32-4ef6-8a59-d97096840a1b" href="6.- ARQ_REVESTIMIENTOS VS EST_files\cd050005.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="24.242" y="-46.295" z="-3.560"/>
+            </clashpoint>
+            <gridlocation>6&apos;&apos;-K : Nivel -1 (-3.56)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="20" second="37"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1449559</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Recubrimiento Muro / Porcelanato - 30x60</node>
+                  <node>Muro básico</node>
+                  <node>Muro por defecto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro por defecto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>289645</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto6" guid="bd2157ab-bed9-4d21-91c8-1d7dd902daf5" href="6.- ARQ_REVESTIMIENTOS VS EST_files\cd050006.jpg" status="new" distance="-0.001">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="27.191" y="-45.560" z="2.950"/>
+            </clashpoint>
+            <gridlocation>7&apos;&apos;&apos;-L : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="20" second="37"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1347796</value>
+                </objectattribute>
+                <layer>Nivel 2 OFI (+2.95)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 OFI (+2.95)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Recubrimiento Muro / Porcelanato - 30x60</node>
+                  <node>Muro básico</node>
+                  <node>0. Porcelanato 30x60</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Porcelanato 30x60</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>745334</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +3.32 CAS</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +3.32 CAS</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto7" guid="e9fe0a65-4c2b-4ecf-b585-d464ac8473e2" href="6.- ARQ_REVESTIMIENTOS VS EST_files\cd050007.jpg" status="new" distance="-0.001">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="27.191" y="-45.560" z="2.950"/>
+            </clashpoint>
+            <gridlocation>7&apos;&apos;&apos;-L : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="20" second="37"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1347968</value>
+                </objectattribute>
+                <layer>Nivel 2 OFI (+2.95)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 OFI (+2.95)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Recubrimiento Muro / Porcelanato - 30x60</node>
+                  <node>Muro básico</node>
+                  <node>Muro por defecto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro por defecto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>745334</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +3.32 CAS</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +3.32 CAS</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>

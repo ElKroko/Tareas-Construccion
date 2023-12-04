@@ -1,0 +1,4040 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="m" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="m">
+    <clashtests>
+      <clashtest name="ARQ - EST" test_type="hard" status="ok" tolerance="0.001" merge_composites="1">
+        <linkage mode="none"/>
+        <rules/>
+        <summary total="57" new="17" active="0" reviewed="0" approved="40" resolved="0">
+          <testtype>Estático</testtype>
+          <teststatus>Aceptar</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Conflicto1" guid="c7b80115-bedc-4849-b111-1904ff74b62c" href="ARQ - EST_files\cd020001.jpg" status="approved" distance="-0.043">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.689" y="3.627" z="2.313"/>
+            </clashpoint>
+            <gridlocation>A-1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="34" second="16"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 RH - OMEGA</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311609</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Muro Estructural - 120mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Muro Estructural - 120mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto2" guid="5a336127-d247-4888-8535-71653b67cc99" href="ARQ - EST_files\cd020002.jpg" status="approved" distance="-0.040">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.706" y="-2.543" z="2.340"/>
+            </clashpoint>
+            <gridlocation>D.1-6 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="34" second="16"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312023</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311738</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Muro Estructural - 120mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Muro Estructural - 120mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto3" guid="ac7abb5f-4d63-4133-80ad-398a8708273c" href="ARQ - EST_files\cd020003.jpg" status="approved" distance="-0.040">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="1.026" y="-2.583" z="-0.005"/>
+            </clashpoint>
+            <gridlocation>C-6 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="34" second="16"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311973</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Marmolina Texturizada</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Marmolina Texturizada</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311845</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Muro Estructural - 120mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Muro Estructural - 120mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto4" guid="81ea2486-9f0b-4769-aaab-cab9b8a7e83a" href="ARQ - EST_files\cd020004.jpg" status="new" distance="-0.040">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.906" y="-3.553" z="0.496"/>
+            </clashpoint>
+            <gridlocation>C-6.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>325618</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Puertas</node>
+                  <node>M_Puerta-Interior-Simple-Paneles_planos-Madera</node>
+                  <node>P1 - 800mm</node>
+                  <node>M_Puerta-Interior-Simple-Paneles_planos-Madera</node>
+                  <node>P1 - 800mm</node>
+                  <node>Cerezo</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Cerezo</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311970</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Muro Estructural - 120mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Muro Estructural - 120mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto5" guid="4b73577a-4286-461d-aa31-11a61efa5677" href="ARQ - EST_files\cd020005.jpg" status="approved" distance="-0.040">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.906" y="-5.543" z="2.099"/>
+            </clashpoint>
+            <gridlocation>C-7 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="35" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311913</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311970</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Muro Estructural - 120mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Muro Estructural - 120mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto6" guid="8f391882-d048-4c46-a5f3-7c9c61d49427" href="ARQ - EST_files\cd020006.jpg" status="approved" distance="-0.040">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.666" y="3.627" z="0.579"/>
+            </clashpoint>
+            <gridlocation>D.1-1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="35" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312129</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311609</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Muro Estructural - 120mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Muro Estructural - 120mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto7" guid="de2a7c9b-6517-4878-b858-b5cf02da2786" href="ARQ - EST_files\cd020007.jpg" status="approved" distance="-0.040">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.754" y="-5.543" z="0.062"/>
+            </clashpoint>
+            <gridlocation>A-7 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="35" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311913</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312302</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Muro Estructural - 120mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Muro Estructural - 120mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto8" guid="c2e2613a-0a5e-4bfa-bb25-0220754fcc81" href="ARQ - EST_files\cd020008.jpg" status="approved" distance="-0.023">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.762" y="-2.543" z="2.302"/>
+            </clashpoint>
+            <gridlocation>D.1-6 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="35" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312023</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>417282</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 12</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 12</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto9" guid="50fa9eaf-44c2-477c-b78a-dabcb974fc8a" href="ARQ - EST_files\cd020009.jpg" status="approved" distance="-0.022">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.959" y="-5.543" z="2.304"/>
+            </clashpoint>
+            <gridlocation>C-7 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="35" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311913</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>420308</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 12</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 12</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto10" guid="df0eec6f-605c-4825-8f17-07a9cd5aa22f" href="ARQ - EST_files\cd020010.jpg" status="approved" distance="-0.021">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.790" y="-2.543" z="0.913"/>
+            </clashpoint>
+            <gridlocation>D.1-6 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="35" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312023</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>472791</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 12</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 12</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto11" guid="7389cd34-78bc-4e42-9294-5526bdaa2d0d" href="ARQ - EST_files\cd020011.jpg" status="approved" distance="-0.020">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="1.026" y="-2.638" z="2.304"/>
+            </clashpoint>
+            <gridlocation>C-6 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="35" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311973</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Marmolina Texturizada</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Marmolina Texturizada</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>411233</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 12</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 12</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto12" guid="97c74fd5-bd8b-4578-bf37-37ffff7ce4f7" href="ARQ - EST_files\cd020012.jpg" status="approved" distance="-0.019">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.818" y="1.477" z="2.185"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="35" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312942</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Muro Sup 04 - Inf 04</node>
+                  <node>Muro básico</node>
+                  <node>0. Pintura Latex Blanco</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Pintura Latex Blanco</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>464682</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto13" guid="5b117ae4-5492-47c8-9d55-233d77473898" href="ARQ - EST_files\cd020013.jpg" status="approved" distance="-0.019">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="1.026" y="-2.628" z="2.229"/>
+            </clashpoint>
+            <gridlocation>C-6 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="35" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311973</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Marmolina Texturizada</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Marmolina Texturizada</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>476498</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 12</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 12</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto14" guid="e61419f2-a239-4c84-a92e-a8cb3b33cb4c" href="ARQ - EST_files\cd020014.jpg" status="approved" distance="-0.018">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.666" y="3.679" z="2.305"/>
+            </clashpoint>
+            <gridlocation>D.1-1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="35" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312129</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>401934</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 10</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 10</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto15" guid="1059ae1c-4fef-4271-b7fa-8d6d62d8e4ec" href="ARQ - EST_files\cd020015.jpg" status="approved" distance="-0.017">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.689" y="3.690" z="2.111"/>
+            </clashpoint>
+            <gridlocation>A-1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="35" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 RH - OMEGA</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>453734</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto16" guid="8251e133-e6b0-47c6-921e-3208c6745047" href="ARQ - EST_files\cd020016.jpg" status="approved" distance="-0.017">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.689" y="3.685" z="0.433"/>
+            </clashpoint>
+            <gridlocation>A-1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="35" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 RH - OMEGA</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>453735</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto17" guid="c3df55e2-386a-4536-bde2-67eac7748d69" href="ARQ - EST_files\cd020017.jpg" status="approved" distance="-0.017">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.666" y="3.687" z="0.640"/>
+            </clashpoint>
+            <gridlocation>D.1-1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="35" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312129</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>460941</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 12</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 12</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto18" guid="797cea00-1aa4-43a9-bbec-1351fdde5047" href="ARQ - EST_files\cd020018.jpg" status="new" distance="-0.017">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.714" y="-1.522" z="0.010"/>
+            </clashpoint>
+            <gridlocation>A-5 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>409824</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536254</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil Canal - Metalcom - Tabiques</node>
+                  <node>Canal Normal - 61x20x0.5</node>
+                  <node>Perfil Canal - Metalcom - Tabiques</node>
+                  <node>Canal Normal - 61x20x0.5</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Canal Normal - 61x20x0.5</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto19" guid="ae4340e4-95d2-4b3a-ab60-8814fbbb4832" href="ARQ - EST_files\cd020019.jpg" status="approved" distance="-0.016">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.666" y="3.691" z="2.058"/>
+            </clashpoint>
+            <gridlocation>D.1-1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="35" second="39"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312129</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>396099</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 12</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 12</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto20" guid="08a462c8-0830-4a7a-931c-725a47e7df1d" href="ARQ - EST_files\cd020020.jpg" status="approved" distance="-0.015">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="1.026" y="-2.641" z="2.237"/>
+            </clashpoint>
+            <gridlocation>C-6 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="35" second="54"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311973</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Marmolina Texturizada</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Marmolina Texturizada</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>400289</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto21" guid="66297cd6-ea94-416d-b6b7-79e468f09037" href="ARQ - EST_files\cd020021.jpg" status="approved" distance="-0.015">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="1.026" y="-2.641" z="0.806"/>
+            </clashpoint>
+            <gridlocation>C-6 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="35" second="54"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311973</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Marmolina Texturizada</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Marmolina Texturizada</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>473952</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 10</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 10</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto22" guid="941fe3bc-836c-413a-a40e-1181bf774690" href="ARQ - EST_files\cd020022.jpg" status="new" distance="-0.015">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.967" y="-3.553" z="0.947"/>
+            </clashpoint>
+            <gridlocation>C-6.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>325618</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Puertas</node>
+                  <node>M_Puerta-Interior-Simple-Paneles_planos-Madera</node>
+                  <node>P1 - 800mm</node>
+                  <node>M_Puerta-Interior-Simple-Paneles_planos-Madera</node>
+                  <node>P1 - 800mm</node>
+                  <node>Cerezo</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Cerezo</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>481581</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto23" guid="391df031-4694-4478-8474-080a1e9e146e" href="ARQ - EST_files\cd020023.jpg" status="approved" distance="-0.015">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="1.026" y="-2.628" z="1.681"/>
+            </clashpoint>
+            <gridlocation>C-6 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="36" second="1"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311973</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Marmolina Texturizada</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Marmolina Texturizada</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>473746</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto24" guid="049ba95b-8e9a-4125-ab9b-4a10d36b1040" href="ARQ - EST_files\cd020024.jpg" status="approved" distance="-0.014">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.689" y="3.690" z="2.049"/>
+            </clashpoint>
+            <gridlocation>A-1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="36" second="31"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 RH - OMEGA</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>396099</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 12</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 12</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto25" guid="5e15c544-2fe1-4420-ac52-0126d448f7fb" href="ARQ - EST_files\cd020025.jpg" status="approved" distance="-0.014">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.793" y="1.477" z="2.302"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="36" second="31"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312942</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Muro Sup 04 - Inf 04</node>
+                  <node>Muro básico</node>
+                  <node>0. Pintura Latex Blanco</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Pintura Latex Blanco</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>428123</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 10</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 10</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto26" guid="0de27540-a621-4768-9886-e32989478cc0" href="ARQ - EST_files\cd020026.jpg" status="approved" distance="-0.013">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.816" y="1.477" z="0.604"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="36" second="31"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312942</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Muro Sup 04 - Inf 04</node>
+                  <node>Muro básico</node>
+                  <node>0. Pintura Latex Blanco</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Pintura Latex Blanco</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>464683</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto27" guid="e5716c04-8069-4527-9921-6ec101757bc8" href="ARQ - EST_files\cd020027.jpg" status="approved" distance="-0.013">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.352" y="-2.313" z="2.340"/>
+            </clashpoint>
+            <gridlocation>A.3-5.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="36" second="31"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>331107</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Tramos</node>
+                  <node>Tramo no monolítico</node>
+                  <node>Huella 50 mm Contrahuella 13 mm</node>
+                  <node>Tramo no monolítico</node>
+                  <node>Tramo(interno)</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tramo(interno)</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Huellas/Contrahuellas</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318182</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Cimentación estructural</node>
+                  <node>Losa de cimentación</node>
+                  <node>Losa Segundo Piso 100mm</node>
+                  <node>Losa de cimentación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Losa de cimentación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Cimentación estructural: Losa de cimentación: Losa Segundo Piso 100mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto28" guid="b50078ad-0651-491b-b2ec-9c8ceb8475ee" href="ARQ - EST_files\cd020028.jpg" status="approved" distance="-0.013">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.352" y="-2.313" z="2.340"/>
+            </clashpoint>
+            <gridlocation>A.3-5.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="36" second="31"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>328646</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Escaleras</node>
+                  <node>Escalera ensamblada</node>
+                  <node>Contrahuella máx. de 190 mm a 250 mm</node>
+                  <node>Escalera ensamblada</node>
+                  <node>Huella 50 mm Contrahuella 13 mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Huella 50 mm Contrahuella 13 mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tramos: Tramo no monolítico: Huella 50 mm Contrahuella 13 mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318182</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Cimentación estructural</node>
+                  <node>Losa de cimentación</node>
+                  <node>Losa Segundo Piso 100mm</node>
+                  <node>Losa de cimentación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Losa de cimentación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Cimentación estructural: Losa de cimentación: Losa Segundo Piso 100mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto29" guid="c7a4c8df-6a66-40d5-8d53-28c7e6c28770" href="ARQ - EST_files\cd020029.jpg" status="approved" distance="-0.013">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.968" y="-5.543" z="0.954"/>
+            </clashpoint>
+            <gridlocation>C-7 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="36" second="31"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311913</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>481581</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto30" guid="828c6f47-b283-4b7b-bc80-3b7718ac7bd9" href="ARQ - EST_files\cd020030.jpg" status="approved" distance="-0.012">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.666" y="3.690" z="0.624"/>
+            </clashpoint>
+            <gridlocation>D.1-1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="36" second="31"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312129</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>458349</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto31" guid="6d12f548-114d-4510-b4c4-ed51d714a737" href="ARQ - EST_files\cd020031.jpg" status="approved" distance="-0.012">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.804" y="1.421" z="0.457"/>
+            </clashpoint>
+            <gridlocation>B-2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="36" second="31"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>313466</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabiqueria</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>469555</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto32" guid="66b4a036-d2a4-4cca-95a8-c9341d875b6a" href="ARQ - EST_files\cd020032.jpg" status="approved" distance="-0.012">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.769" y="-2.543" z="1.816"/>
+            </clashpoint>
+            <gridlocation>D.1-6 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="36" second="31"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312023</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>471135</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto33" guid="6520fec4-c725-458b-aef1-051334cdb837" href="ARQ - EST_files\cd020033.jpg" status="approved" distance="-0.011">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.984" y="-5.543" z="0.340"/>
+            </clashpoint>
+            <gridlocation>C-7 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="36" second="31"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311913</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>480687</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto34" guid="d6f4d8b4-8968-49f4-b700-5210b88ec705" href="ARQ - EST_files\cd020034.jpg" status="approved" distance="-0.011">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="1.026" y="-2.647" z="2.055"/>
+            </clashpoint>
+            <gridlocation>C-6.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="36" second="31"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311973</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Marmolina Texturizada</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Marmolina Texturizada</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>410831</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 10</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 10</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto35" guid="5c24a6d4-6ca4-4250-be9e-7069c20ea88d" href="ARQ - EST_files\cd020035.jpg" status="approved" distance="-0.010">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.689" y="3.699" z="0.017"/>
+            </clashpoint>
+            <gridlocation>A-1.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="36" second="31"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 RH - OMEGA</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>460572</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto36" guid="04599eea-bf23-4426-bc36-965cff2e78f2" href="ARQ - EST_files\cd020036.jpg" status="new" distance="-0.010">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.814" y="-1.583" z="-0.004"/>
+            </clashpoint>
+            <gridlocation>B-5 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>313198</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabiqueria</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536254</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil Canal - Metalcom - Tabiques</node>
+                  <node>Canal Normal - 61x20x0.5</node>
+                  <node>Perfil Canal - Metalcom - Tabiques</node>
+                  <node>Canal Normal - 61x20x0.5</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Canal Normal - 61x20x0.5</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto37" guid="3f9da0f9-b858-453d-8c47-fd1198c6c5fa" href="ARQ - EST_files\cd020037.jpg" status="new" distance="-0.010">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="2.666" y="0.017" z="-0.009"/>
+            </clashpoint>
+            <gridlocation>D.1-4 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312129</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>537802</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil Canal - Metalcom - Tabiques</node>
+                  <node>Canal Normal - 61x20x0.5</node>
+                  <node>Perfil Canal - Metalcom - Tabiques</node>
+                  <node>Canal Normal - 61x20x0.5</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Canal Normal - 61x20x0.5</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto38" guid="397ceecb-960a-4c16-9f44-b5d0ed056d00" href="ARQ - EST_files\cd020038.jpg" status="new" distance="-0.010">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.364" y="2.747" z="-0.004"/>
+            </clashpoint>
+            <gridlocation>A.1-1.a : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>313799</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabiqueria Baño</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>538573</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil Canal - Metalcom - Tabiques</node>
+                  <node>Canal Normal - 61x20x0.5</node>
+                  <node>Perfil Canal - Metalcom - Tabiques</node>
+                  <node>Canal Normal - 61x20x0.5</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Canal Normal - 61x20x0.5</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto39" guid="77f1eff3-ce88-44b2-b2fe-a70b90a72f0c" href="ARQ - EST_files\cd020039.jpg" status="new" distance="-0.010">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.714" y="-1.583" z="0.010"/>
+            </clashpoint>
+            <gridlocation>A-5 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312413</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536254</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil Canal - Metalcom - Tabiques</node>
+                  <node>Canal Normal - 61x20x0.5</node>
+                  <node>Perfil Canal - Metalcom - Tabiques</node>
+                  <node>Canal Normal - 61x20x0.5</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Canal Normal - 61x20x0.5</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto40" guid="41e6f1a8-bf06-4bf5-9feb-a1a8c2e02767" href="ARQ - EST_files\cd020040.jpg" status="approved" distance="-0.010">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.804" y="1.477" z="0.061"/>
+            </clashpoint>
+            <gridlocation>B-2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="37" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>313466</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabiqueria</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312441</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Muro Estructural - 120mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Muro Estructural - 120mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto41" guid="c3c4a0f9-dd5b-4567-96b6-ae22626d13ed" href="ARQ - EST_files\cd020041.jpg" status="approved" distance="-0.010">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.817" y="-5.543" z="0.039"/>
+            </clashpoint>
+            <gridlocation>A-7 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="37" second="19"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311913</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>464984</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto42" guid="727a9fba-d5b4-482f-acc8-4ee18c4b951c" href="ARQ - EST_files\cd020042.jpg" status="approved" distance="-0.010">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.812" y="1.477" z="1.976"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="37" second="19"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312942</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Muro Sup 04 - Inf 04</node>
+                  <node>Muro básico</node>
+                  <node>0. Pintura Latex Blanco</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Pintura Latex Blanco</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>470773</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto43" guid="ada88c68-3994-43a4-bf4c-499b884765fe" href="ARQ - EST_files\cd020043.jpg" status="approved" distance="-0.010">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.818" y="-5.543" z="2.082"/>
+            </clashpoint>
+            <gridlocation>A-7 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="37" second="19"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311913</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>469290</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto44" guid="1a1bb90a-235f-491a-8e4b-3f4d0a035d70" href="ARQ - EST_files\cd020044.jpg" status="approved" distance="-0.009">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="1.026" y="-2.645" z="0.162"/>
+            </clashpoint>
+            <gridlocation>C-6.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="37" second="19"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311973</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Marmolina Texturizada</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Marmolina Texturizada</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>474079</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto45" guid="71e0e107-17c0-4ed1-91ad-61979c977b00" href="ARQ - EST_files\cd020045.jpg" status="new" distance="-0.009">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.096" y="0.087" z="0.215"/>
+            </clashpoint>
+            <gridlocation>B.1-4 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>314022</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabiqueria</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>537475</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil Montante - Metalcom - Tabiques</node>
+                  <node>Montante Normal Perf - 60x38x0.5</node>
+                  <node>Perfil Montante - Metalcom - Tabiques</node>
+                  <node>Montante Normal Perf - 60x38x0.5</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Montante Normal Perf - 60x38x0.5</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto46" guid="5163a47b-4a4e-4e80-92f5-913c4f01c107" href="ARQ - EST_files\cd020046.jpg" status="new" distance="-0.008">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.096" y="0.087" z="0.010"/>
+            </clashpoint>
+            <gridlocation>B.1-4 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>314022</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabiqueria</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>537465</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil Canal - Metalcom - Tabiques</node>
+                  <node>Canal Normal - 61x20x0.5</node>
+                  <node>Perfil Canal - Metalcom - Tabiques</node>
+                  <node>Canal Normal - 61x20x0.5</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Canal Normal - 61x20x0.5</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto47" guid="1256c00c-6cc8-4939-b42f-748d34a1d37a" href="ARQ - EST_files\cd020047.jpg" status="approved" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.921" y="-3.503" z="-0.009"/>
+            </clashpoint>
+            <gridlocation>C-6.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="37" second="40"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>690688</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Suelos</node>
+                  <node>Suelo</node>
+                  <node>Ceramica de Piso</node>
+                  <node>Suelo</node>
+                  <node>0. Adhesivo Ceramica</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Adhesivo Ceramica</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311970</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Muro Estructural - 120mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Muro Estructural - 120mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto48" guid="d8fa2e34-7a4d-4ecd-a309-f0fd2007e889" href="ARQ - EST_files\cd020048.jpg" status="approved" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.926" y="-3.503" z="-0.004"/>
+            </clashpoint>
+            <gridlocation>C-6.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="37" second="49"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>690696</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Suelos</node>
+                  <node>Suelo</node>
+                  <node>Ceramica de Piso</node>
+                  <node>Suelo</node>
+                  <node>0. Adhesivo Ceramica</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Adhesivo Ceramica</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311970</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Muro Estructural - 120mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Muro Estructural - 120mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto49" guid="749afbbf-866f-45c2-9993-353df453fab5" href="ARQ - EST_files\cd020049.jpg" status="new" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.955" y="-3.547" z="2.015"/>
+            </clashpoint>
+            <gridlocation>C-6.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>325618</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Puertas</node>
+                  <node>M_Puerta-Interior-Simple-Paneles_planos-Madera</node>
+                  <node>P1 - 800mm</node>
+                  <node>M_Puerta-Interior-Simple-Paneles_planos-Madera</node>
+                  <node>P1 - 800mm</node>
+                  <node>Cerezo</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Cerezo</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>420538</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 10</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 10</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto50" guid="dbe98ba3-4040-4eb1-ad0d-876e399f7447" href="ARQ - EST_files\cd020050.jpg" status="new" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.955" y="-3.548" z="-0.010"/>
+            </clashpoint>
+            <gridlocation>C-6.1 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>690696</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Suelos</node>
+                  <node>Suelo</node>
+                  <node>Ceramica de Piso</node>
+                  <node>Suelo</node>
+                  <node>0. Adhesivo Ceramica</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Adhesivo Ceramica</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>420538</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 10</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 10</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto51" guid="2aca988d-c48d-4ee1-8204-9b05a250b0c9" href="ARQ - EST_files\cd020051.jpg" status="new" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.352" y="-2.308" z="2.358"/>
+            </clashpoint>
+            <gridlocation>A.3-5.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>331107</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Tramos</node>
+                  <node>Tramo no monolítico</node>
+                  <node>Huella 50 mm Contrahuella 13 mm</node>
+                  <node>Tramo no monolítico</node>
+                  <node>Tramo(interno)</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tramo(interno)</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Huellas/Contrahuellas</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>430431</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto52" guid="93054bbb-38b2-4c52-81f1-e657292e8176" href="ARQ - EST_files\cd020052.jpg" status="new" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.352" y="-2.308" z="2.358"/>
+            </clashpoint>
+            <gridlocation>A.3-5.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>328646</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Escaleras</node>
+                  <node>Escalera ensamblada</node>
+                  <node>Contrahuella máx. de 190 mm a 250 mm</node>
+                  <node>Escalera ensamblada</node>
+                  <node>Huella 50 mm Contrahuella 13 mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Huella 50 mm Contrahuella 13 mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tramos: Tramo no monolítico: Huella 50 mm Contrahuella 13 mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>430431</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto53" guid="874ba7ed-fd7f-48ea-b0fd-17e6c2f85f6d" href="ARQ - EST_files\cd020053.jpg" status="new" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.714" y="-2.316" z="2.359"/>
+            </clashpoint>
+            <gridlocation>A-5.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>525041</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Yeso Carton ST 10mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Yeso Carton ST 10mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>430431</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto54" guid="d60c6f51-4a46-448e-b981-6b841525f1bf" href="ARQ - EST_files\cd020054.jpg" status="new" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.714" y="-2.321" z="2.408"/>
+            </clashpoint>
+            <gridlocation>A-5.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>525041</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Yeso Carton ST 10mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Yeso Carton ST 10mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>446003</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 12</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 12</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto55" guid="4b0bb62b-31d0-482b-9474-cc9a90666f40" href="ARQ - EST_files\cd020055.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.714" y="-1.590" z="2.365"/>
+            </clashpoint>
+            <gridlocation>A-5 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="38" second="59"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>524732</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Yeso Carton ST 10mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Yeso Carton ST 10mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318182</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Cimentación estructural</node>
+                  <node>Losa de cimentación</node>
+                  <node>Losa Segundo Piso 100mm</node>
+                  <node>Losa de cimentación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Losa de cimentación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Cimentación estructural: Losa de cimentación: Losa Segundo Piso 100mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto56" guid="3fc0ab36-cded-40db-bbe3-f809cfd70d13" href="ARQ - EST_files\cd020056.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.889" y="-2.313" z="2.362"/>
+            </clashpoint>
+            <gridlocation>A.1.1-5.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>525041</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Yeso Carton ST 10mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Yeso Carton ST 10mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>447383</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto57" guid="40ae65b9-97f9-404f-8483-0583d362cc38" href="ARQ - EST_files\cd020057.jpg" status="new" distance="-0.001">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.618" y="-2.323" z="2.364"/>
+            </clashpoint>
+            <gridlocation>A-5.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="33" second="12"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>525041</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Yeso Carton ST 10mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Yeso Carton ST 10mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>435445</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8 Estribo PHI 10</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8 Estribo PHI 10</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>

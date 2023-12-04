@@ -1,0 +1,3103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="m" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="m">
+    <clashtests>
+      <clashtest name="ARQ - ELE" test_type="hard" status="old" tolerance="0.001" merge_composites="1">
+        <linkage mode="none"/>
+        <rules/>
+        <summary total="44" new="0" active="8" reviewed="0" approved="21" resolved="15">
+          <testtype>Estático</testtype>
+          <teststatus>Antiguo</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Conflicto1" guid="9f4c2472-ad12-401a-a4d0-17cf505c6f3f" href="ARQ - ELE_files\cd010001.jpg" status="resolved" distance="-0.038">
+            <description>Estático</description>
+            <resultstatus>Resuelto</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.742" y="-2.805" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-6.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>530891</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Suelos</node>
+                  <node>Suelo</node>
+                  <node>Lana de vidrio</node>
+                  <node>Suelo</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Suelo</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Suelos: Suelo: Lana de vidrio</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>894661</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto2" guid="b4ec07c3-3b39-4fe1-8a00-1c81a53fb9aa" href="ARQ - ELE_files\cd010002.jpg" status="approved" distance="-0.035">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.879" y="-0.885" z="3.624"/>
+            </clashpoint>
+            <gridlocation>A.1.1-3.2 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="25" second="45"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>704884</value>
+                </objectattribute>
+                <layer>Techo Interior Bajo</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Bajo</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>845911</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto3" guid="ef24252a-0d86-45bc-abca-a2c5c0e305ba" href="ARQ - ELE_files\cd010003.jpg" status="approved" distance="-0.020">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.729" y="-2.629" z="4.793"/>
+            </clashpoint>
+            <gridlocation>C-6 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="25" second="45"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>705200</value>
+                </objectattribute>
+                <layer>Techo Interior Bajo</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Bajo</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>902079</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto4" guid="2ae55e03-77d4-46c4-b351-cb42199029b9" href="ARQ - ELE_files\cd010004.jpg" status="approved" distance="-0.017">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.729" y="-2.624" z="4.777"/>
+            </clashpoint>
+            <gridlocation>C-6 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="25" second="45"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>703643</value>
+                </objectattribute>
+                <layer>Techo Interior Superior</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Superior</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>902079</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto5" guid="10005230-0967-41d0-aefe-f28117a95502" href="ARQ - ELE_files\cd010005.jpg" status="resolved" distance="-0.017">
+            <description>Estático</description>
+            <resultstatus>Resuelto</resultstatus>
+            <clashpoint>
+              <pos3f x="0.844" y="-2.620" z="4.774"/>
+            </clashpoint>
+            <gridlocation>C-6 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>705200</value>
+                </objectattribute>
+                <layer>Techo Interior Bajo</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Bajo</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Lana de Vidrio</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Lana de Vidrio</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>910651</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto6" guid="2fa00b85-7cfa-4eb6-9b0e-e225dd89176a" href="ARQ - ELE_files\cd010006.jpg" status="resolved" distance="-0.015">
+            <description>Estático</description>
+            <resultstatus>Resuelto</resultstatus>
+            <clashpoint>
+              <pos3f x="2.691" y="3.329" z="0.308"/>
+            </clashpoint>
+            <gridlocation>D.1-1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>620221</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Modelos genéricos</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Calugas de Adhesivo</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Modelos genéricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>806232</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Aparatos eléctricos</node>
+                  <node>APARATO ELECTRICO</node>
+                  <node>Toma Doble 10A</node>
+                  <node>APARATO ELECTRICO</node>
+                  <node>Toma Doble 10A</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Toma Doble 10A</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos eléctricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto7" guid="86e459fc-2825-497f-9be4-2237491e527a" href="ARQ - ELE_files\cd010007.jpg" status="resolved" distance="-0.014">
+            <description>Estático</description>
+            <resultstatus>Resuelto</resultstatus>
+            <clashpoint>
+              <pos3f x="2.691" y="1.227" z="0.311"/>
+            </clashpoint>
+            <gridlocation>D.1-2.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>620221</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Modelos genéricos</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Calugas de Adhesivo</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Modelos genéricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>806225</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Aparatos eléctricos</node>
+                  <node>APARATO ELECTRICO</node>
+                  <node>Toma Simple 10A</node>
+                  <node>APARATO ELECTRICO</node>
+                  <node>Toma Simple 10A</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Toma Simple 10A</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos eléctricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto8" guid="4f40d636-fd06-4d3e-83bb-47916aafb141" href="ARQ - ELE_files\cd010008.jpg" status="approved" distance="-0.014">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.886" y="-2.635" z="4.601"/>
+            </clashpoint>
+            <gridlocation>C-6 : Buhardilla</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="25" second="45"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>705200</value>
+                </objectattribute>
+                <layer>Techo Interior Bajo</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Bajo</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>910583</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto9" guid="dc8b734a-613e-4b76-9650-06621aecd87e" href="ARQ - ELE_files\cd010009.jpg" status="resolved" distance="-0.014">
+            <description>Estático</description>
+            <resultstatus>Resuelto</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.739" y="-5.363" z="0.320"/>
+            </clashpoint>
+            <gridlocation>A-7 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>619635</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Modelos genéricos</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Calugas de Adhesivo</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Modelos genéricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>806197</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Aparatos eléctricos</node>
+                  <node>APARATO ELECTRICO</node>
+                  <node>Toma Doble 10A</node>
+                  <node>APARATO ELECTRICO</node>
+                  <node>Toma Doble 10A</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Toma Doble 10A</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos eléctricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto10" guid="deba7166-da30-4e08-ab62-f7c11d04167d" href="ARQ - ELE_files\cd010010.jpg" status="approved" distance="-0.012">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.525" y="3.747" z="2.366"/>
+            </clashpoint>
+            <gridlocation>A.3-1.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="25" second="45"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>458958</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Siding Fibrocemento 3660x190x6</node>
+                  <node>Muro básico</node>
+                  <node>0. Papel Fieltro 10Lbs</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Papel Fieltro 10Lbs</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>930977</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto11" guid="f21b20ca-4ab8-41a4-866b-75269397fdcc" href="ARQ - ELE_files\cd010011.jpg" status="approved" distance="-0.011">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.778" y="-0.993" z="4.784"/>
+            </clashpoint>
+            <gridlocation>B-5 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="25" second="45"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>704884</value>
+                </objectattribute>
+                <layer>Techo Interior Bajo</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Bajo</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>923893</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto12" guid="0bff98b8-3d86-4e5e-88f4-26ec9a94114f" href="ARQ - ELE_files\cd010012.jpg" status="approved" distance="-0.011">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.778" y="-0.993" z="4.784"/>
+            </clashpoint>
+            <gridlocation>B-5 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="25" second="45"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>703643</value>
+                </objectattribute>
+                <layer>Techo Interior Superior</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Superior</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>923893</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto13" guid="36fb3db0-59ac-4f21-a9a5-d983517f49d1" href="ARQ - ELE_files\cd010013.jpg" status="approved" distance="-0.009">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.949" y="-2.795" z="3.562"/>
+            </clashpoint>
+            <gridlocation>A.1.1-6.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="25" second="45"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>704884</value>
+                </objectattribute>
+                <layer>Techo Interior Bajo</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Bajo</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>894796</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto14" guid="c069e784-5267-412b-925f-a09587b282d3" href="ARQ - ELE_files\cd010014.jpg" status="approved" distance="-0.009">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.778" y="-0.885" z="4.854"/>
+            </clashpoint>
+            <gridlocation>B-3.2 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="25" second="45"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>704884</value>
+                </objectattribute>
+                <layer>Techo Interior Bajo</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Bajo</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>921916</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto15" guid="c9f129eb-cf2e-4a51-bde3-6cf0263e45f9" href="ARQ - ELE_files\cd010015.jpg" status="approved" distance="-0.009">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.778" y="-0.875" z="4.849"/>
+            </clashpoint>
+            <gridlocation>B-3.2 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="25" second="45"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>703643</value>
+                </objectattribute>
+                <layer>Techo Interior Superior</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Superior</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>921916</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto16" guid="859655f7-312a-428a-8323-071707a10698" href="ARQ - ELE_files\cd010016.jpg" status="approved" distance="-0.008">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.866" y="-4.052" z="1.526"/>
+            </clashpoint>
+            <gridlocation>C-6.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="25" second="45"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>311973</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>831793</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Equipos eléctricos</node>
+                  <node>M_Cuadro de control de accesorios e iluminación - 480V MLO</node>
+                  <node>125 A</node>
+                  <node>M_Cuadro de control de accesorios e iluminación - 480V MLO</node>
+                  <node>125 A</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>125 A</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Equipos eléctricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto17" guid="c26eb739-1ab0-4537-b470-7f34de700f93" href="ARQ - ELE_files\cd010017.jpg" status="active" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.778" y="-2.746" z="4.785"/>
+            </clashpoint>
+            <gridlocation>B-6.1 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>704884</value>
+                </objectattribute>
+                <layer>Techo Interior Bajo</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Bajo</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>922653</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto18" guid="82e1fe07-5e28-4c64-bcf1-6e2bb6926938" href="ARQ - ELE_files\cd010018.jpg" status="active" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.778" y="-2.746" z="4.785"/>
+            </clashpoint>
+            <gridlocation>B-6.1 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>703643</value>
+                </objectattribute>
+                <layer>Techo Interior Superior</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Superior</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>922653</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto19" guid="d4a68db2-4f90-4fe4-a610-0db6a00fc376" href="ARQ - ELE_files\cd010019.jpg" status="active" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.874" y="1.904" z="2.333"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 RH - OMEGA</node>
+                  <node>Muro básico</node>
+                  <node>0. Marmolina Texturizada</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Marmolina Texturizada</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>839017</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Caja de conexiones de tubo - Te - PVC</node>
+                  <node>Estándar</node>
+                  <node>M_Caja de conexiones de tubo - Te - PVC</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto20" guid="e13772fa-4ca0-4931-b437-577136d5d904" href="ARQ - ELE_files\cd010020.jpg" status="resolved" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Resuelto</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.874" y="1.790" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>530891</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Suelos</node>
+                  <node>Suelo</node>
+                  <node>Lana de vidrio</node>
+                  <node>Suelo</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Suelo</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Suelos: Suelo: Lana de vidrio</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>839017</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Caja de conexiones de tubo - Te - PVC</node>
+                  <node>Estándar</node>
+                  <node>M_Caja de conexiones de tubo - Te - PVC</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto21" guid="cf2f9aab-67fe-4dc7-b59c-27929b82f9b8" href="ARQ - ELE_files\cd010021.jpg" status="resolved" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Resuelto</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.949" y="-2.800" z="3.546"/>
+            </clashpoint>
+            <gridlocation>A.1.1-6.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>395474</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext T.14 - Int 05</node>
+                  <node>Muro básico</node>
+                  <node>0. Lana de Vidrio</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Lana de Vidrio</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>894796</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto22" guid="8874cab9-371f-47d7-aa54-df17dc0b8993" href="ARQ - ELE_files\cd010022.jpg" status="resolved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Resuelto</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.739" y="-2.837" z="1.196"/>
+            </clashpoint>
+            <gridlocation>A-6.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>619635</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Modelos genéricos</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Calugas de Adhesivo</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Modelos genéricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>875310</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Dispositivos de iluminación</node>
+                  <node>Dispositivo de Iluminacion</node>
+                  <node>Dispositivo de Iluminacion</node>
+                  <node>Dispositivo de Iluminacion</node>
+                  <node>Dispositivo de Iluminacion</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Dispositivo de Iluminacion</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Dispositivos de iluminación</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto23" guid="ac281f0d-b389-489a-ad57-0d13f2db28a3" href="ARQ - ELE_files\cd010023.jpg" status="resolved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Resuelto</resultstatus>
+            <clashpoint>
+              <pos3f x="2.691" y="3.309" z="0.490"/>
+            </clashpoint>
+            <gridlocation>D.1-1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>620221</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Modelos genéricos</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Calugas de Adhesivo</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Modelos genéricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>828138</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto24" guid="0a172500-be8e-4a8f-afd7-e4fe0256c13a" href="ARQ - ELE_files\cd010024.jpg" status="resolved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Resuelto</resultstatus>
+            <clashpoint>
+              <pos3f x="2.694" y="1.205" z="0.040"/>
+            </clashpoint>
+            <gridlocation>D.1-2.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>620221</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Modelos genéricos</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Calugas de Adhesivo</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Modelos genéricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>823481</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto25" guid="bf32a162-83e7-4d85-9f89-1026976b4f6e" href="ARQ - ELE_files\cd010025.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.346" y="-2.817" z="4.764"/>
+            </clashpoint>
+            <gridlocation>A.3-6.1 : Buhardilla</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="27" second="20"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>703643</value>
+                </objectattribute>
+                <layer>Techo Interior Superior</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Superior</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>907239</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto26" guid="cf186670-9bc6-4e57-9cb4-370a491022c1" href="ARQ - ELE_files\cd010026.jpg" status="active" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.936" y="-2.806" z="3.565"/>
+            </clashpoint>
+            <gridlocation>A.1.1-6.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>704884</value>
+                </objectattribute>
+                <layer>Techo Interior Bajo</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Bajo</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>894752</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto27" guid="44deeb07-a673-46a3-951c-2b7d8db76997" href="ARQ - ELE_files\cd010027.jpg" status="active" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.859" y="-2.796" z="3.645"/>
+            </clashpoint>
+            <gridlocation>A.1.1-6.1 : Techo Interior Bajo</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>395474</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext T.14 - Int 05</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>894752</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto28" guid="79af6d58-cbcd-41da-bd44-772579697b0c" href="ARQ - ELE_files\cd010028.jpg" status="resolved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Resuelto</resultstatus>
+            <clashpoint>
+              <pos3f x="2.691" y="-2.376" z="0.340"/>
+            </clashpoint>
+            <gridlocation>D.1-5.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>620014</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Modelos genéricos</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Calugas de Adhesivo</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Modelos genéricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>806211</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Aparatos eléctricos</node>
+                  <node>APARATO ELECTRICO</node>
+                  <node>Toma Doble 10A</node>
+                  <node>APARATO ELECTRICO</node>
+                  <node>Toma Doble 10A</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Toma Doble 10A</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos eléctricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto29" guid="5e921980-1a1b-4252-9ec9-50eca716fff9" href="ARQ - ELE_files\cd010029.jpg" status="resolved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Resuelto</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.739" y="-2.802" z="2.090"/>
+            </clashpoint>
+            <gridlocation>A-6.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>619635</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Modelos genéricos</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Calugas de Adhesivo</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Modelos genéricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>894661</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto30" guid="e186ead0-5d4a-4dad-9d0e-4b0784fcd342" href="ARQ - ELE_files\cd010030.jpg" status="resolved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Resuelto</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.142" y="3.612" z="1.200"/>
+            </clashpoint>
+            <gridlocation>A.1.1-1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>686369</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Modelos genéricos</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Calugas de Adhesivo</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Modelos genéricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>806155</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Aparatos eléctricos</node>
+                  <node>APARATO ELECTRICO</node>
+                  <node>Toma Simple 10A</node>
+                  <node>APARATO ELECTRICO</node>
+                  <node>Toma Simple 10A</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Toma Simple 10A</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos eléctricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto31" guid="5d82a8e2-cef6-4b54-bcfd-426c50f5bd53" href="ARQ - ELE_files\cd010031.jpg" status="active" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.875" y="1.904" z="2.336"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>484242</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Malla Mosquitera</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Malla Mosquitera</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>839017</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Caja de conexiones de tubo - Te - PVC</node>
+                  <node>Estándar</node>
+                  <node>M_Caja de conexiones de tubo - Te - PVC</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto32" guid="82475c40-33a9-4791-8c6a-b01599a1130b" href="ARQ - ELE_files\cd010032.jpg" status="resolved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Resuelto</resultstatus>
+            <clashpoint>
+              <pos3f x="2.691" y="1.198" z="-0.007"/>
+            </clashpoint>
+            <gridlocation>D.1-2.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>620221</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Modelos genéricos</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Calugas de Adhesivo</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Modelos genéricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>823577</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto33" guid="7207cc05-1b11-4c5e-a98b-b21247309112" href="ARQ - ELE_files\cd010033.jpg" status="resolved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Resuelto</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.153" y="3.612" z="1.347"/>
+            </clashpoint>
+            <gridlocation>A.1.1-1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>686369</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Modelos genéricos</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                  <node>Calugas de Adhesivo</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Calugas de Adhesivo</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Modelos genéricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>831095</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto34" guid="99e84c9f-2989-40db-ac88-76a7ee091107" href="ARQ - ELE_files\cd010034.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.965" y="-2.603" z="2.811"/>
+            </clashpoint>
+            <gridlocation>C-6 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="28" second="7"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>454559</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabiqueria</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>806277</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Aparatos eléctricos</node>
+                  <node>APARATO ELECTRICO</node>
+                  <node>Toma Doble 10A</node>
+                  <node>APARATO ELECTRICO</node>
+                  <node>Toma Doble 10A</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Toma Doble 10A</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos eléctricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto35" guid="7ab8bdd2-258a-4e47-b7e1-6ccd83bf532e" href="ARQ - ELE_files\cd010035.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.118" y="1.083" z="4.764"/>
+            </clashpoint>
+            <gridlocation>B.2-2.1 : Buhardilla</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="28" second="51"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>703643</value>
+                </objectattribute>
+                <layer>Techo Interior Superior</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Superior</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>905399</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto36" guid="0f700bf6-edcc-49a3-85ee-43f3b1817215" href="ARQ - ELE_files\cd010036.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.715" y="0.647" z="4.764"/>
+            </clashpoint>
+            <gridlocation>A.2-3.1 : Buhardilla</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="30" second="13"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>703643</value>
+                </objectattribute>
+                <layer>Techo Interior Superior</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Superior</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>905487</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto37" guid="fe99273e-6a65-405c-a47d-eeb040ce27e6" href="ARQ - ELE_files\cd010037.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.421" y="-1.564" z="4.764"/>
+            </clashpoint>
+            <gridlocation>A.3-5 : Buhardilla</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="30" second="13"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>703643</value>
+                </objectattribute>
+                <layer>Techo Interior Superior</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Superior</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>906282</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto38" guid="df519fae-be52-49a3-a957-518a54ae641a" href="ARQ - ELE_files\cd010038.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.491" y="-2.341" z="4.764"/>
+            </clashpoint>
+            <gridlocation>A.3-5.1 : Buhardilla</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="30" second="13"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>703643</value>
+                </objectattribute>
+                <layer>Techo Interior Superior</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Superior</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>908527</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto39" guid="5e2a481b-fcf2-4006-a00d-e44b98197731" href="ARQ - ELE_files\cd010039.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.019" y="-0.953" z="4.764"/>
+            </clashpoint>
+            <gridlocation>B.1-5 : Buhardilla</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="30" second="13"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>703643</value>
+                </objectattribute>
+                <layer>Techo Interior Superior</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Superior</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>879486</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Luminarias</node>
+                  <node>Luminaria - Derivación</node>
+                  <node>Luminaria - Derivación</node>
+                  <node>Luminaria - Derivación</node>
+                  <node>Luminaria - Derivación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Luminaria - Derivación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Luminarias</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto40" guid="b7511602-2a08-46e3-bbd5-4029079397b8" href="ARQ - ELE_files\cd010040.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.062" y="3.647" z="2.811"/>
+            </clashpoint>
+            <gridlocation>B.1-1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="30" second="13"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>395212</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext T.14 - Int 05</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>806242</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Aparatos eléctricos</node>
+                  <node>APARATO ELECTRICO</node>
+                  <node>Toma Doble 10A</node>
+                  <node>APARATO ELECTRICO</node>
+                  <node>Toma Doble 10A</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Toma Doble 10A</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos eléctricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto41" guid="2903cd95-cf5e-446b-baba-1112c10c1f41" href="ARQ - ELE_files\cd010041.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.717" y="0.884" z="4.764"/>
+            </clashpoint>
+            <gridlocation>A.2-3 : Buhardilla</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="30" second="13"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>703643</value>
+                </objectattribute>
+                <layer>Techo Interior Superior</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Superior</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>913270</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto42" guid="2aeff090-ff43-43f6-86f7-9a93c3028193" href="ARQ - ELE_files\cd010042.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.224" y="1.154" z="4.764"/>
+            </clashpoint>
+            <gridlocation>B-2.1 : Buhardilla</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="30" second="13"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>703643</value>
+                </objectattribute>
+                <layer>Techo Interior Superior</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Superior</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>912819</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto43" guid="c71c5d4b-6d2d-4584-8661-413a61edee4b" href="ARQ - ELE_files\cd010043.jpg" status="active" distance="-0.001">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.186" y="0.924" z="4.763"/>
+            </clashpoint>
+            <gridlocation>B.2-2.1 : Buhardilla</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>414593</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabiqueria</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>865220</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Aparatos eléctricos</node>
+                  <node>Caja de Derivación</node>
+                  <node>Caja de Derivación</node>
+                  <node>Caja de Derivación</node>
+                  <node>Caja de Derivación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Caja de Derivación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos eléctricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto44" guid="0d3067a6-d53f-4185-ba21-53035ea7ad5d" href="ARQ - ELE_files\cd010044.jpg" status="active" distance="-0.001">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.235" y="0.957" z="4.764"/>
+            </clashpoint>
+            <gridlocation>B.2-2.1 : Buhardilla</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="24" second="2"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>703643</value>
+                </objectattribute>
+                <layer>Techo Interior Superior</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Techo Interior Superior</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Techo Segundo Piso</node>
+                  <node>Techo compuesto</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>865220</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Aparatos eléctricos</node>
+                  <node>Caja de Derivación</node>
+                  <node>Caja de Derivación</node>
+                  <node>Caja de Derivación</node>
+                  <node>Caja de Derivación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Caja de Derivación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos eléctricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>

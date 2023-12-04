@@ -1,0 +1,2543 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="m" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="m">
+    <clashtests>
+      <clashtest name="ARQ - FNT" test_type="hard" status="ok" tolerance="0.001" merge_composites="1">
+        <linkage mode="none"/>
+        <rules/>
+        <summary total="110" new="0" active="0" reviewed="0" approved="35" resolved="75">
+          <testtype>Estático</testtype>
+          <teststatus>Aceptar</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Conflicto74" guid="b503c894-fe48-46f6-9a71-5c3f6df8d9af" href="ARQ - FNT_files\cd030001.jpg" status="approved" distance="-0.025">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.725" y="0.955" z="2.560"/>
+            </clashpoint>
+            <gridlocation>B-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>538640</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabiqueria Baño 2</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>533771</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto77" guid="fbd67373-d3a5-46a2-98c5-01ffabd705c9" href="ARQ - FNT_files\cd030002.jpg" status="approved" distance="-0.018">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.778" y="0.885" z="2.456"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>436107</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Fronton Buhardilla</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>408912</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto79" guid="16342771-db98-4535-8095-7dd2295b7ac2" href="ARQ - FNT_files\cd030003.jpg" status="approved" distance="-0.011">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.831" y="1.081" z="2.694"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>439315</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Izq 05 - Der 05</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>555737</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto82" guid="8b51b9a8-246a-4c60-a60b-713175f3555f" href="ARQ - FNT_files\cd030004.jpg" status="approved" distance="-0.009">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.862" y="0.918" z="2.443"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>436107</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Fronton Buhardilla</node>
+                  <node>Muro básico</node>
+                  <node>0. OSB</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. OSB</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512489</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto83" guid="fe454868-e4de-4a85-bc49-161ed10ff557" href="ARQ - FNT_files\cd030005.jpg" status="approved" distance="-0.008">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.513" y="1.081" z="2.654"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>458307</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 06 -Int 05 (2)</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>556121</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto84" guid="441cd3b1-2937-4434-9d92-995afc234fb7" href="ARQ - FNT_files\cd030006.jpg" status="approved" distance="-0.008">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.236" y="1.081" z="2.654"/>
+            </clashpoint>
+            <gridlocation>B-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>439315</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Izq 05 - Der 05</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>555149</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto85" guid="8ab1a216-1347-4813-9d29-0725d49840b4" href="ARQ - FNT_files\cd030007.jpg" status="approved" distance="-0.008">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.343" y="1.081" z="2.703"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>458307</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 06 -Int 05 (2)</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>556099</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto86" guid="090e6e24-703a-4110-b9b1-c5d8dac5ae7d" href="ARQ - FNT_files\cd030008.jpg" status="approved" distance="-0.008">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.115" y="1.081" z="2.703"/>
+            </clashpoint>
+            <gridlocation>B-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>439315</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Izq 05 - Der 05</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>555124</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto88" guid="c43a3fca-b0a3-4531-a17f-f6f38e4a0fe2" href="ARQ - FNT_files\cd030009.jpg" status="approved" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.954" y="1.081" z="2.565"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>458307</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 06 -Int 05 (2)</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>555973</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto90" guid="b300014f-8177-497a-8742-5810573405a1" href="ARQ - FNT_files\cd030010.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.931" y="1.081" z="2.736"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>458307</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 06 -Int 05 (2)</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>528366</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Enchufe - PVC - Serie 40 - DWV</node>
+                  <node>Estándar</node>
+                  <node>M_Enchufe - PVC - Serie 40 - DWV</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto91" guid="7df411dd-5ade-48fc-8969-b6a8deb97286" href="ARQ - FNT_files\cd030011.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.064" y="1.081" z="2.736"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>458307</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 06 -Int 05 (2)</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>528337</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Enchufe - PVC - Serie 40 - DWV</node>
+                  <node>Estándar</node>
+                  <node>M_Enchufe - PVC - Serie 40 - DWV</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto92" guid="31f923d5-bb64-4cdc-8402-30d6f268f301" href="ARQ - FNT_files\cd030012.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.874" y="0.923" z="0.558"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>409824</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Marmolina Texturizada</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Marmolina Texturizada</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512513</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto94" guid="d3597261-0a40-4281-b497-fe7f3ba5213a" href="ARQ - FNT_files\cd030013.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.958" y="1.081" z="2.495"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>458307</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 06 -Int 05 (2)</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>555990</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Te - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Te - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto95" guid="0bee471b-12f9-4f8c-a009-d50defa180e6" href="ARQ - FNT_files\cd030014.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.824" y="1.081" z="2.556"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>439315</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Izq 05 - Der 05</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>555756</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Te - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Te - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto98" guid="cfbeb4f3-8f6d-4086-bfaf-3382f17e34e5" href="ARQ - FNT_files\cd030015.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.118" y="1.081" z="2.577"/>
+            </clashpoint>
+            <gridlocation>B-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>439315</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Izq 05 - Der 05</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>555139</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto99" guid="5e92ede2-b326-45b7-b66c-a70053912a6a" href="ARQ - FNT_files\cd030016.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.345" y="1.081" z="2.577"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>458307</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 06 -Int 05 (2)</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>556111</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto100" guid="58126012-f248-4244-98f1-a044241c12b5" href="ARQ - FNT_files\cd030017.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.497" y="1.081" z="2.511"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>458307</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 06 -Int 05 (2)</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>556134</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto101" guid="a76cf855-dcff-46dd-a194-bba55e047f14" href="ARQ - FNT_files\cd030018.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.219" y="1.081" z="2.511"/>
+            </clashpoint>
+            <gridlocation>B-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>439315</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Izq 05 - Der 05</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>555162</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto103" guid="b9155b67-b515-42ee-947d-75de3ae3f7b8" href="ARQ - FNT_files\cd030019.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.944" y="1.081" z="3.208"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>458307</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 06 -Int 05 (2)</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536829</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Aparatos sanitarios</node>
+                  <node>M_Sanitario - Cisterna1</node>
+                  <node>Privado - 6,1 Lpf</node>
+                  <node>M_Sanitario - Cisterna1</node>
+                  <node>Privado - 6,1 Lpf</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Privado - 6,1 Lpf</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos sanitarios</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto104" guid="0214a2a4-469c-4eaf-a1ff-8e03449a667d" href="ARQ - FNT_files\cd030020.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.849" y="1.081" z="3.208"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>439315</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Izq 05 - Der 05</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536829</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Aparatos sanitarios</node>
+                  <node>M_Sanitario - Cisterna1</node>
+                  <node>Privado - 6,1 Lpf</node>
+                  <node>M_Sanitario - Cisterna1</node>
+                  <node>Privado - 6,1 Lpf</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Privado - 6,1 Lpf</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos sanitarios</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto105" guid="7e8cdd78-7e46-44cc-9aa4-6590b7c27270" href="ARQ - FNT_files\cd030021.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.055" y="1.081" z="2.653"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>458307</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 06 -Int 05 (2)</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>460882</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto106" guid="17e271c3-6b17-487f-8086-136b004c9955" href="ARQ - FNT_files\cd030022.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.922" y="1.081" z="2.602"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>458307</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 06 -Int 05 (2)</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>461239</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto109" guid="04cf64f4-42d1-4500-a05b-2a0a5ea8e0b4" href="ARQ - FNT_files\cd030023.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-3.009" y="0.866" z="0.648"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="43" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="47" second="6"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>542839</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Shaft</node>
+                  <node>Muro básico</node>
+                  <node>0. Espacio para Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Espacio para Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512513</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto1" guid="c3d2c42a-a8a2-4792-a056-fc957d99d6c7" href="ARQ - FNT_files\cd030024.jpg" status="approved" distance="-0.106">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.743" y="0.998" z="5.122"/>
+            </clashpoint>
+            <gridlocation>B-2.1 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="40" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="47" second="11"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>424228</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Cubiertas</node>
+                  <node>Cubierta básica</node>
+                  <node>Cubierta General</node>
+                  <node>Cubierta básica</node>
+                  <node>0. OSB</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. OSB</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511862</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto9" guid="821b7ace-531f-482c-b009-6cf96dd67b54" href="ARQ - FNT_files\cd030025.jpg" status="approved" distance="-0.038">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.725" y="0.964" z="2.560"/>
+            </clashpoint>
+            <gridlocation>B-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="40" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="47" second="11"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>538640</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabiqueria Baño 2</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511862</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto11" guid="4f032936-f72c-4381-8a56-86eb2da92eaa" href="ARQ - FNT_files\cd030026.jpg" status="approved" distance="-0.030">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.778" y="0.855" z="2.499"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="40" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="47" second="11"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>436107</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Fronton Buhardilla</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>408896</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto12" guid="2482f73c-d99d-405a-ad8f-ac45caee15c3" href="ARQ - FNT_files\cd030027.jpg" status="approved" distance="-0.029">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.862" y="0.845" z="2.642"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="40" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="47" second="11"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>436107</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Fronton Buhardilla</node>
+                  <node>Muro básico</node>
+                  <node>0. OSB</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. OSB</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>427283</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto34" guid="efc6c673-39ea-41c8-949d-27f665dd84f0" href="ARQ - FNT_files\cd030028.jpg" status="approved" distance="-0.011">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.874" y="0.911" z="0.722"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="40" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="47" second="11"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>409824</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 ST</node>
+                  <node>Muro básico</node>
+                  <node>0. Marmolina Texturizada</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Marmolina Texturizada</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512514</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto51" guid="44821cf6-037e-47e4-976b-e665131be0b8" href="ARQ - FNT_files\cd030029.jpg" status="approved" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.778" y="0.845" z="2.590"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="40" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="47" second="11"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>436107</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Fronton Buhardilla</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón RH 12.5mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón RH 12.5mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>427252</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto58" guid="19265a9a-14ed-4e28-ab44-14e066a07f62" href="ARQ - FNT_files\cd030030.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.874" y="1.863" z="0.906"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="40" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="47" second="11"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 RH - OMEGA</node>
+                  <node>Muro básico</node>
+                  <node>0. Marmolina Texturizada</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Marmolina Texturizada</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>528491</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Enchufe - PVC - Serie 40 - DWV</node>
+                  <node>Estándar</node>
+                  <node>M_Enchufe - PVC - Serie 40 - DWV</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto59" guid="c2b24256-2c3c-466f-98b0-41c062810271" href="ARQ - FNT_files\cd030031.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.874" y="2.063" z="0.906"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="40" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="47" second="11"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 RH - OMEGA</node>
+                  <node>Muro básico</node>
+                  <node>0. Marmolina Texturizada</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Marmolina Texturizada</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>528489</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Enchufe - PVC - Serie 40 - DWV</node>
+                  <node>Estándar</node>
+                  <node>M_Enchufe - PVC - Serie 40 - DWV</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto60" guid="d5e3e754-8a60-48c1-a394-0edf216c4dbe" href="ARQ - FNT_files\cd030032.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.874" y="2.426" z="0.906"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="40" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="47" second="11"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 RH - OMEGA</node>
+                  <node>Muro básico</node>
+                  <node>0. Marmolina Texturizada</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Marmolina Texturizada</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>528487</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Enchufe - PVC - Serie 40 - DWV</node>
+                  <node>Estándar</node>
+                  <node>M_Enchufe - PVC - Serie 40 - DWV</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto61" guid="ecb0b5c1-fa91-4217-a264-f2d269f761a1" href="ARQ - FNT_files\cd030033.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.874" y="2.629" z="0.906"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="40" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="47" second="11"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Ext 01 - Int 02 RH - OMEGA</node>
+                  <node>Muro básico</node>
+                  <node>0. Marmolina Texturizada</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Marmolina Texturizada</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>529174</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Enchufe - PVC - Serie 40 - DWV</node>
+                  <node>Estándar</node>
+                  <node>M_Enchufe - PVC - Serie 40 - DWV</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto65" guid="22102186-7777-4599-b6d4-cf461ec53b41" href="ARQ - FNT_files\cd030034.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.989" y="0.822" z="-0.010"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="40" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="47" second="11"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>542779</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Shaft</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>439002</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto66" guid="7b38da3f-9000-4f58-b5ac-c58467a09bcd" href="ARQ - FNT_files\cd030035.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.913" y="0.822" z="-0.010"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="40" second="36"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="47" second="11"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>542779</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Shaft</node>
+                  <node>Muro básico</node>
+                  <node>0. Revestimiento interior yeso cartón ST 10mm</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Revestimiento interior yeso cartón ST 10mm</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>438859</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>

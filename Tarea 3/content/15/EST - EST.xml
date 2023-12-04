@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="m" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="m">
+    <clashtests>
+      <clashtest name="EST - EST" test_type="hard" status="ok" tolerance="0.001" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/EST/Hormigón;lcop_selection_set_tree/EST/Enfierradura</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/EST/Metalcom</locator>
+          </clashselection>
+        </right>
+        <rules/>
+        <summary total="13" new="0" active="13" reviewed="0" approved="0" resolved="0">
+          <testtype>Estático</testtype>
+          <teststatus>Aceptar</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Conflicto1" guid="26fec508-40c4-4e29-9577-618c474f861b" href="EST - EST_files\cd090001.jpg" status="active" distance="-0.012">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.852" y="-0.252" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-3.2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="59" second="38"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318182</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Cimentación estructural</node>
+                  <node>Losa de cimentación</node>
+                  <node>Losa Segundo Piso 100mm</node>
+                  <node>Losa de cimentación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Losa de cimentación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Cimentación estructural: Losa de cimentación: Losa Segundo Piso 100mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>654296</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil U - Metalcom</node>
+                  <node>62C085</node>
+                  <node>Perfil U - Metalcom</node>
+                  <node>62C085</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>62C085</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto2" guid="2e46bddd-79c6-41bf-b3b2-664b9753e608" href="EST - EST_files\cd090002.jpg" status="active" distance="-0.012">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.812" y="-0.078" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-4 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="59" second="38"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318182</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Cimentación estructural</node>
+                  <node>Losa de cimentación</node>
+                  <node>Losa Segundo Piso 100mm</node>
+                  <node>Losa de cimentación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Losa de cimentación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Cimentación estructural: Losa de cimentación: Losa Segundo Piso 100mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>652621</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil U - Metalcom</node>
+                  <node>92C085</node>
+                  <node>Perfil U - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil U - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil U - Metalcom: 92C085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto3" guid="35388408-3b57-46a3-a395-f90003f3dda2" href="EST - EST_files\cd090003.jpg" status="active" distance="-0.012">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.806" y="-0.214" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-3.2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="59" second="38"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318182</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Cimentación estructural</node>
+                  <node>Losa de cimentación</node>
+                  <node>Losa Segundo Piso 100mm</node>
+                  <node>Losa de cimentación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Losa de cimentación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Cimentación estructural: Losa de cimentación: Losa Segundo Piso 100mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>652537</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>90CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil C - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil C - Metalcom: 90CA085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto4" guid="5ed843ae-7027-4493-8d5e-3ab4d1e5336d" href="EST - EST_files\cd090004.jpg" status="active" distance="-0.012">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.804" y="-0.251" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-3.2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="59" second="38"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318182</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Cimentación estructural</node>
+                  <node>Losa de cimentación</node>
+                  <node>Losa Segundo Piso 100mm</node>
+                  <node>Losa de cimentación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Losa de cimentación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Cimentación estructural: Losa de cimentación: Losa Segundo Piso 100mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>652417</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil U - Metalcom</node>
+                  <node>92C085</node>
+                  <node>Perfil U - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil U - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil U - Metalcom: 92C085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto5" guid="ef5a04af-31ee-450d-af29-e8763c8a8d10" href="EST - EST_files\cd090005.jpg" status="active" distance="-0.012">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.810" y="-0.116" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-3.2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="59" second="38"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318182</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Cimentación estructural</node>
+                  <node>Losa de cimentación</node>
+                  <node>Losa Segundo Piso 100mm</node>
+                  <node>Losa de cimentación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Losa de cimentación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Cimentación estructural: Losa de cimentación: Losa Segundo Piso 100mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>652580</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>90CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil C - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil C - Metalcom: 90CA085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto6" guid="a45796df-f242-4d33-837c-e1f1cdb5908b" href="EST - EST_files\cd090006.jpg" status="active" distance="-0.012">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.806" y="-0.213" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-3.2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="59" second="38"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318182</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Cimentación estructural</node>
+                  <node>Losa de cimentación</node>
+                  <node>Losa Segundo Piso 100mm</node>
+                  <node>Losa de cimentación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Losa de cimentación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Cimentación estructural: Losa de cimentación: Losa Segundo Piso 100mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>652845</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>90CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil C - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil C - Metalcom: 90CA085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto7" guid="f8c04846-dc10-4157-a6df-2e18a2b0b772" href="EST - EST_files\cd090007.jpg" status="active" distance="-0.012">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.810" y="-0.117" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-3.2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="59" second="38"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318182</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Cimentación estructural</node>
+                  <node>Losa de cimentación</node>
+                  <node>Losa Segundo Piso 100mm</node>
+                  <node>Losa de cimentación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Losa de cimentación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Cimentación estructural: Losa de cimentación: Losa Segundo Piso 100mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>652892</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>90CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil C - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil C - Metalcom: 90CA085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto8" guid="73d94910-05cd-4944-851c-b2585ebb4863" href="EST - EST_files\cd090008.jpg" status="active" distance="-0.012">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.777" y="1.155" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="59" second="38"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318182</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Cimentación estructural</node>
+                  <node>Losa de cimentación</node>
+                  <node>Losa Segundo Piso 100mm</node>
+                  <node>Losa de cimentación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Losa de cimentación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Cimentación estructural: Losa de cimentación: Losa Segundo Piso 100mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>653238</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>90CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil C - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil C - Metalcom: 90CA085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto9" guid="fddb7b17-2807-4b27-8aa3-e4b8732349e9" href="EST - EST_files\cd090009.jpg" status="active" distance="-0.012">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.858" y="0.981" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="59" second="38"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318182</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Cimentación estructural</node>
+                  <node>Losa de cimentación</node>
+                  <node>Losa Segundo Piso 100mm</node>
+                  <node>Losa de cimentación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Losa de cimentación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Cimentación estructural: Losa de cimentación: Losa Segundo Piso 100mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>653242</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil U - Metalcom</node>
+                  <node>92C085</node>
+                  <node>Perfil U - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil U - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil U - Metalcom: 92C085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto10" guid="6c9bdb8d-670a-432b-81c5-9d1bc6a52a3b" href="EST - EST_files\cd090010.jpg" status="active" distance="-0.012">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.863" y="1.156" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="59" second="38"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318182</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Cimentación estructural</node>
+                  <node>Losa de cimentación</node>
+                  <node>Losa Segundo Piso 100mm</node>
+                  <node>Losa de cimentación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Losa de cimentación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Cimentación estructural: Losa de cimentación: Losa Segundo Piso 100mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>653236</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil U - Metalcom</node>
+                  <node>92C085</node>
+                  <node>Perfil U - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil U - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil U - Metalcom: 92C085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto11" guid="9d591dcc-c8d2-44c3-9ed1-b35522206c03" href="EST - EST_files\cd090011.jpg" status="active" distance="-0.012">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.777" y="1.058" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="59" second="38"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318182</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Cimentación estructural</node>
+                  <node>Losa de cimentación</node>
+                  <node>Losa Segundo Piso 100mm</node>
+                  <node>Losa de cimentación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Losa de cimentación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Cimentación estructural: Losa de cimentación: Losa Segundo Piso 100mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>653246</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>90CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil C - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil C - Metalcom: 90CA085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto12" guid="eb82863b-4d7b-43d0-8cf9-64f5cf95f45c" href="EST - EST_files\cd090012.jpg" status="active" distance="-0.012">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.789" y="1.079" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="59" second="38"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318182</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Cimentación estructural</node>
+                  <node>Losa de cimentación</node>
+                  <node>Losa Segundo Piso 100mm</node>
+                  <node>Losa de cimentación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Losa de cimentación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Cimentación estructural: Losa de cimentación: Losa Segundo Piso 100mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>653244</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>90CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil C - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil C - Metalcom: 90CA085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto13" guid="c89ce2d4-b0a1-4c6a-8dac-c9fb312d30dd" href="EST - EST_files\cd090013.jpg" status="active" distance="-0.012">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.789" y="0.982" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="59" second="38"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318182</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Cimentación estructural</node>
+                  <node>Losa de cimentación</node>
+                  <node>Losa Segundo Piso 100mm</node>
+                  <node>Losa de cimentación</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Losa de cimentación</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Cimentación estructural: Losa de cimentación: Losa Segundo Piso 100mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>653240</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>90CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil C - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil C - Metalcom: 90CA085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>

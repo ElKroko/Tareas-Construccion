@@ -1,0 +1,2930 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="m" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="m">
+    <clashtests>
+      <clashtest name="ELE - ELE" test_type="hard" status="ok" tolerance="0.001" merge_composites="1">
+        <linkage mode="none"/>
+        <rules/>
+        <summary total="41" new="0" active="0" reviewed="0" approved="41" resolved="0">
+          <testtype>Estático</testtype>
+          <teststatus>Aceptar</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Conflicto16" guid="0f4b6010-3906-4e0f-94c9-41166d36cfa6" href="ELE - ELE_files\cd050001.jpg" status="approved" distance="-0.008">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.731" y="0.512" z="4.792"/>
+            </clashpoint>
+            <gridlocation>B-3.1 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>905741</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>970292</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto17" guid="bb46f487-317a-4f7b-94ad-4f406bde1a48" href="ELE - ELE_files\cd050002.jpg" status="approved" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.250" y="-1.031" z="4.777"/>
+            </clashpoint>
+            <gridlocation>A.3-5 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>896035</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>911138</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto18" guid="2c6a3bf4-93f7-44dc-9097-18894b8f54e0" href="ELE - ELE_files\cd050003.jpg" status="approved" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.667" y="-3.333" z="-0.072"/>
+            </clashpoint>
+            <gridlocation>C-6.1 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>950340</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>833316</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto19" guid="9d64f47c-a7e9-4633-a060-60067d77cee8" href="ELE - ELE_files\cd050004.jpg" status="approved" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.460" y="-2.630" z="4.787"/>
+            </clashpoint>
+            <gridlocation>A.3-6 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>965815</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>907211</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto20" guid="da0a820e-fda1-4489-b0a8-b73ed6ddb594" href="ELE - ELE_files\cd050005.jpg" status="approved" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.181" y="0.833" z="4.780"/>
+            </clashpoint>
+            <gridlocation>A.3-3 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>913260</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>899297</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto21" guid="c279e8b3-3081-4a66-a80e-e69d3b29ff90" href="ELE - ELE_files\cd050006.jpg" status="approved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.633" y="-2.628" z="4.789"/>
+            </clashpoint>
+            <gridlocation>C-6 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>966509</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>965815</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto22" guid="7e520f5c-e206-4396-beb1-310150388f2f" href="ELE - ELE_files\cd050007.jpg" status="approved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.008" y="0.835" z="4.781"/>
+            </clashpoint>
+            <gridlocation>B.1-3 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>905741</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>913260</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto23" guid="0502b7b2-d97c-49fb-a454-0acf4a8ba351" href="ELE - ELE_files\cd050008.jpg" status="approved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.049" y="0.889" z="4.774"/>
+            </clashpoint>
+            <gridlocation>B.1-3 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>911756</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>899297</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto24" guid="63dc6fe4-ef01-4e93-a872-352965cc907b" href="ELE - ELE_files\cd050009.jpg" status="approved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.239" y="-1.003" z="4.774"/>
+            </clashpoint>
+            <gridlocation>A.3-5 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>896681</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>911138</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto25" guid="923907fe-2106-4e27-8486-ba88fad5fb5f" href="ELE - ELE_files\cd050010.jpg" status="approved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.301" y="0.758" z="4.780"/>
+            </clashpoint>
+            <gridlocation>B.2-3 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>969984</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>912570</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto26" guid="3eb03886-f183-409e-a7fe-697626feea99" href="ELE - ELE_files\cd050011.jpg" status="approved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.500" y="-2.775" z="4.779"/>
+            </clashpoint>
+            <gridlocation>A.3-6.1 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>906730</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>966513</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto27" guid="09766769-d1d2-4284-839a-e9f5e834e9f9" href="ELE - ELE_files\cd050012.jpg" status="approved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.734" y="-0.775" z="4.795"/>
+            </clashpoint>
+            <gridlocation>B-3.2 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>970499</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>970513</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto28" guid="0efefb61-66f9-4ffc-bced-e878620ed9e5" href="ELE - ELE_files\cd050013.jpg" status="approved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.398" y="-1.581" z="4.775"/>
+            </clashpoint>
+            <gridlocation>A.3-5 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>906282</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>911138</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto29" guid="048ac439-4eab-48d0-b091-0325bf0539f6" href="ELE - ELE_files\cd050014.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.250" y="0.744" z="4.786"/>
+            </clashpoint>
+            <gridlocation>B.2-3 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>969984</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>912748</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto30" guid="5930c0fa-b590-45aa-9775-2d0f918fcc91" href="ELE - ELE_files\cd050015.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.505" y="-2.794" z="4.789"/>
+            </clashpoint>
+            <gridlocation>A.3-6.1 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>906730</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>965634</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto31" guid="af0c409f-1094-4266-a786-4d955d18ca3d" href="ELE - ELE_files\cd050016.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.174" y="0.757" z="4.779"/>
+            </clashpoint>
+            <gridlocation>A.3-3 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>969984</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>905741</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto32" guid="92362008-8bda-4da7-9101-1c967829efd1" href="ELE - ELE_files\cd050017.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.505" y="-2.620" z="4.791"/>
+            </clashpoint>
+            <gridlocation>A.3-6 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>906730</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>965815</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto33" guid="db4935f8-fb11-4f3c-9d77-c1815b63c2da" href="ELE - ELE_files\cd050018.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.887" y="-3.890" z="-0.080"/>
+            </clashpoint>
+            <gridlocation>C-6.1 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>950320</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>833316</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto34" guid="103ce267-18a6-4153-ab82-f9e65e14392b" href="ELE - ELE_files\cd050019.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.414" y="0.752" z="4.774"/>
+            </clashpoint>
+            <gridlocation>A.3-3 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>969984</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>899297</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto35" guid="39700f3c-fcde-422a-b73e-9cd518ba52c9" href="ELE - ELE_files\cd050020.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.476" y="-2.790" z="4.789"/>
+            </clashpoint>
+            <gridlocation>A.3-6.1 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>965634</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>907236</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto36" guid="1db1746a-dd39-450a-91cd-7c7673a4e3a2" href="ELE - ELE_files\cd050021.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.331" y="1.142" z="4.776"/>
+            </clashpoint>
+            <gridlocation>B.2-2.1 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>965118</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>905173</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto37" guid="52c466aa-afc6-4d16-9d3d-968fed21f88d" href="ELE - ELE_files\cd050022.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.062" y="0.865" z="4.792"/>
+            </clashpoint>
+            <gridlocation>B.1-3 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>905741</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>912823</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto38" guid="4cd32e91-860a-422d-b3f0-661c1ab32dd9" href="ELE - ELE_files\cd050023.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.476" y="-2.775" z="4.788"/>
+            </clashpoint>
+            <gridlocation>A.3-6.1 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>966513</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>907236</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto39" guid="7ef52037-cc1f-4cfc-8233-cae3eb2de686" href="ELE - ELE_files\cd050024.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.633" y="-2.626" z="4.777"/>
+            </clashpoint>
+            <gridlocation>C-6 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>966376</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>965815</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto40" guid="473ce2dd-def2-46b3-9576-3ac4297c82ea" href="ELE - ELE_files\cd050025.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.510" y="0.134" z="-0.051"/>
+            </clashpoint>
+            <gridlocation>D.1-4 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>958487</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>968192</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto41" guid="5ba68a25-2451-4e5e-994c-cf89480565d7" href="ELE - ELE_files\cd050026.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.688" y="0.136" z="-0.034"/>
+            </clashpoint>
+            <gridlocation>D.1-4 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>967941</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>968240</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto42" guid="80c51536-193d-486c-98c4-2e576c861133" href="ELE - ELE_files\cd050027.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.475" y="-2.748" z="4.784"/>
+            </clashpoint>
+            <gridlocation>A.3-6.1 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>966513</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>907211</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto43" guid="3f5e58ae-48dd-4c0c-a1e9-2770ae3e3857" href="ELE - ELE_files\cd050028.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.682" y="1.165" z="-0.047"/>
+            </clashpoint>
+            <gridlocation>D.1-2.1 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>962751</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>962326</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto44" guid="5c140964-8152-4b99-8b86-1c7621a2c217" href="ELE - ELE_files\cd050029.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.095" y="0.879" z="4.776"/>
+            </clashpoint>
+            <gridlocation>B.1-3 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>905741</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>912811</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto45" guid="69ba0249-e3f1-486e-992e-6160a87f6209" href="ELE - ELE_files\cd050030.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.315" y="0.742" z="4.784"/>
+            </clashpoint>
+            <gridlocation>B.2-3 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>969984</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>911902</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto46" guid="f37f952a-f296-4ab0-a095-157031ca205d" href="ELE - ELE_files\cd050031.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.689" y="0.135" z="-0.106"/>
+            </clashpoint>
+            <gridlocation>D.1-4 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>951636</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>968123</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto47" guid="2b954b79-eb9f-46ff-83ce-39584ae1eae1" href="ELE - ELE_files\cd050032.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.444" y="0.128" z="-0.038"/>
+            </clashpoint>
+            <gridlocation>D.1-4 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>957678</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>968192</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto48" guid="f68a0a74-c51d-4749-89ab-aee423c48a42" href="ELE - ELE_files\cd050033.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.691" y="0.139" z="-0.067"/>
+            </clashpoint>
+            <gridlocation>D.1-4 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>822966</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>968123</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto49" guid="7bffdf3f-b854-4375-b65b-1255c7c5616a" href="ELE - ELE_files\cd050034.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.690" y="1.189" z="-0.047"/>
+            </clashpoint>
+            <gridlocation>D.1-2.1 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>962326</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>950610</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto50" guid="e3944662-67a9-4bb3-96f5-37eb53edf29a" href="ELE - ELE_files\cd050035.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.686" y="0.113" z="-0.061"/>
+            </clashpoint>
+            <gridlocation>D.1-4 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>962554</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>968123</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto51" guid="9da4542e-349e-4f01-8cc0-10c87d1633db" href="ELE - ELE_files\cd050036.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="0.917" y="-3.911" z="-0.080"/>
+            </clashpoint>
+            <gridlocation>C-6.1 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>949967</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>950320</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto52" guid="7df08768-944e-4680-9de1-a23f209a952c" href="ELE - ELE_files\cd050037.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.673" y="0.125" z="-0.061"/>
+            </clashpoint>
+            <gridlocation>D.1-4 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>968240</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>968123</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto53" guid="35792228-5f30-414a-b5ff-23fa4f78b38c" href="ELE - ELE_files\cd050038.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.569" y="0.127" z="-0.038"/>
+            </clashpoint>
+            <gridlocation>D.1-4 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>958790</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>968192</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto54" guid="a5fb9e05-2b07-45e1-a815-a17e2f3571dc" href="ELE - ELE_files\cd050039.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="2.441" y="0.134" z="-0.036"/>
+            </clashpoint>
+            <gridlocation>D.1-4 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>957678</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>968204</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto55" guid="a37800d7-aaf4-4be6-94ca-54026359c86f" href="ELE - ELE_files\cd050040.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.408" y="-2.800" z="4.786"/>
+            </clashpoint>
+            <gridlocation>A.3-6.1 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="15"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="7" minute="49" second="56"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>965634</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>907239</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto14" guid="b0c8a61d-f25d-4e2f-bd15-551654a5b0e7" href="ELE - ELE_files\cd050041.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.663" y="-2.534" z="4.785"/>
+            </clashpoint>
+            <gridlocation>A.2-6 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="48" second="5"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="4" minute="48" second="34"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>920954</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>912746</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubo</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                  <node>Estándar</node>
+                  <node>M_Codo de tubo - Sin uniones - RNC</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Codo de tubo - Sin uniones - RNC</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubo: M_Codo de tubo - Sin uniones - RNC: Estándar</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>

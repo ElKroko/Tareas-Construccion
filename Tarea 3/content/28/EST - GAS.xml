@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="m" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="m">
+    <clashtests>
+      <clashtest name="EST - GAS" test_type="hard" status="ok" tolerance="0.001" merge_composites="1">
+        <linkage mode="none"/>
+        <rules/>
+        <summary total="1" new="0" active="1" reviewed="0" approved="0" resolved="0">
+          <testtype>Estático</testtype>
+          <teststatus>Aceptar</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Conflicto1" guid="cf31f2de-2c87-403c-8ae8-1783852442c6" href="EST - GAS_files\cd110001.jpg" status="active" distance="-0.015">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.754" y="1.336" z="0.179"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="5" minute="3" second="35"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>312302</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Muro Estructural - 120mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Muro Estructural - 120mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>351412</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>GAS.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>Tuberia Cobre</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: Tuberia Cobre</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>

@@ -1,0 +1,3326 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="m" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="m">
+    <clashtests>
+      <clashtest name="EST - FNT" test_type="hard" status="ok" tolerance="0.001" merge_composites="1">
+        <linkage mode="none"/>
+        <rules/>
+        <summary total="117" new="0" active="0" reviewed="0" approved="46" resolved="71">
+          <testtype>Estático</testtype>
+          <teststatus>Aceptar</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Conflicto36" guid="dba431cc-2dd5-4f36-9be9-e7fae7964ec8" href="EST - FNT_files\cd100001.jpg" status="approved" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.564" y="2.255" z="-0.366"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>450301</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>551928</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto40" guid="30252aeb-f925-4a2d-9375-c94fc9ff8144" href="EST - FNT_files\cd100002.jpg" status="approved" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.268" y="2.600" z="-0.144"/>
+            </clashpoint>
+            <gridlocation>A.1.1-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>389074</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>420309</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto43" guid="a916b190-59e9-4460-b594-a8fd71de0282" href="EST - FNT_files\cd100003.jpg" status="approved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.824" y="2.644" z="-0.142"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>376940</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>529077</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto44" guid="704d92a6-f90d-4b8d-b900-61e785fc4a03" href="EST - FNT_files\cd100004.jpg" status="approved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.271" y="2.506" z="-0.039"/>
+            </clashpoint>
+            <gridlocation>A.1.1-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>386233</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>420309</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto45" guid="11f9a39b-55f2-4891-bf68-df9e3b31bfbe" href="EST - FNT_files\cd100005.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.523" y="1.799" z="-0.057"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>392515</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>526686</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto47" guid="f0d7d1fa-c86c-4a0a-aa14-0f45980f32f4" href="EST - FNT_files\cd100006.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.566" y="3.152" z="-0.297"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>450301</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>513901</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto49" guid="edc44363-6a8e-4ec7-85ad-af6370104b93" href="EST - FNT_files\cd100007.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.520" y="0.490" z="-0.054"/>
+            </clashpoint>
+            <gridlocation>A-3.1 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>392515</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>446817</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto51" guid="29219a61-0546-4e3b-98c2-7eed705f549c" href="EST - FNT_files\cd100008.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.564" y="1.896" z="-0.325"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>450301</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>514780</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto52" guid="08564a35-61a7-453c-80e3-cbdaa18a2a8f" href="EST - FNT_files\cd100009.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.823" y="2.427" z="-0.390"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>450301</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>441672</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto53" guid="91eb330c-ab3d-46ec-ae10-2fc066ffea12" href="EST - FNT_files\cd100010.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.815" y="2.023" z="-0.378"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>426949</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 10</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 10</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>526861</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto54" guid="e55a9c65-a76e-47a1-a80f-bfaae0995ea7" href="EST - FNT_files\cd100011.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.803" y="3.279" z="0.130"/>
+            </clashpoint>
+            <gridlocation>A-1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>464684</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>442604</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto55" guid="f419d133-0a3d-49f8-bbb5-e6b0e45d7670" href="EST - FNT_files\cd100012.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.562" y="0.454" z="-0.230"/>
+            </clashpoint>
+            <gridlocation>A-3.1 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>450301</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>446908</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto56" guid="8e7e869c-bd4c-4ee2-8c67-dcd6f3460cce" href="EST - FNT_files\cd100013.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.820" y="3.082" z="0.132"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>464684</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>442330</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto66" guid="c2699ddf-ac10-4e50-9058-a045c8ade00b" href="EST - FNT_files\cd100014.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.858" y="2.074" z="-0.338"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>450301</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>526861</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto67" guid="b9b45dc9-1c68-4644-82d6-229459218536" href="EST - FNT_files\cd100015.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.846" y="3.287" z="0.015"/>
+            </clashpoint>
+            <gridlocation>A-1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>460572</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>438187</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto69" guid="47446fa8-0ade-4c7d-abc0-dab5db0611a5" href="EST - FNT_files\cd100016.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.842" y="2.075" z="-0.394"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>450301</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>441793</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto74" guid="fb69bc35-e365-4f2a-8028-2bd87640244b" href="EST - FNT_files\cd100017.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.811" y="1.872" z="0.885"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>470773</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>441808</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Te - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Te - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto76" guid="af4eb282-33d1-4e92-87f5-a90d8709f3bc" href="EST - FNT_files\cd100018.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.854" y="2.069" z="-0.321"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>450301</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>526855</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto77" guid="382746db-a742-448c-9468-34d0f7b307d5" href="EST - FNT_files\cd100019.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.557" y="3.169" z="-0.025"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>376940</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>527228</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto80" guid="0f930a3a-71e6-42fb-84ac-66f49be2ed43" href="EST - FNT_files\cd100020.jpg" status="approved" distance="-0.001">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.610" y="0.519" z="-0.028"/>
+            </clashpoint>
+            <gridlocation>A-3.1 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>378265</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>528872</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto81" guid="df786594-fff4-4c6d-874b-915ed103208d" href="EST - FNT_files\cd100021.jpg" status="approved" distance="-0.001">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.820" y="2.636" z="-0.096"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="58" second="26"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>378265</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>529077</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto84" guid="cdda1ecc-f43c-496c-a22e-e344e4ee2a9e" href="EST - FNT_files\cd100022.jpg" status="approved" distance="-0.015">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.682" y="1.007" z="4.728"/>
+            </clashpoint>
+            <gridlocation>A.2-2.1 : Buhardilla</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>566847</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil Canal - Metalcom - Tabiques</node>
+                  <node>Canal Normal - 61x20x0.5</node>
+                  <node>Perfil Canal - Metalcom - Tabiques</node>
+                  <node>Canal Normal - 61x20x0.5</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Canal Normal - 61x20x0.5</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511862</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto85" guid="d3a8820c-6b6b-4fb3-9abe-4585e6d1f458" href="EST - FNT_files\cd100023.jpg" status="approved" distance="-0.013">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.726" y="1.016" z="5.091"/>
+            </clashpoint>
+            <gridlocation>B-2.1 : Techo Interior Superior</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>658308</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil Omega Costanera  (OMA)</node>
+                  <node>35OMA05</node>
+                  <node>Perfil Omega Costanera  (OMA)</node>
+                  <node>35OMA05</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>35OMA05</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511862</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto86" guid="766ea56f-b312-46e5-a740-4bbfdfd49b1c" href="EST - FNT_files\cd100024.jpg" status="approved" distance="-0.011">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.362" y="1.096" z="3.159"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>661497</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>60CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>60CA085</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>60CA085</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>462045</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto87" guid="a55ab08b-7374-430a-a2a1-0c6c28b0760d" href="EST - FNT_files\cd100025.jpg" status="approved" distance="-0.010">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.365" y="1.095" z="2.837"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>661497</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>60CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>60CA085</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>60CA085</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>556099</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto88" guid="819a4819-c885-4796-a1c7-f586c193a176" href="EST - FNT_files\cd100026.jpg" status="approved" distance="-0.010">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.853" y="0.915" z="2.443"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>654296</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil U - Metalcom</node>
+                  <node>62C085</node>
+                  <node>Perfil U - Metalcom</node>
+                  <node>62C085</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>62C085</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>408896</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto92" guid="35025d55-bd5e-4bd9-9fba-5bd99de99802" href="EST - FNT_files\cd100027.jpg" status="approved" distance="-0.009">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.853" y="0.912" z="2.441"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>654296</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil U - Metalcom</node>
+                  <node>62C085</node>
+                  <node>Perfil U - Metalcom</node>
+                  <node>62C085</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>62C085</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512489</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto94" guid="8d7b7891-7131-47aa-ac5c-c938b20dd8f8" href="EST - FNT_files\cd100028.jpg" status="approved" distance="-0.009">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.144" y="1.095" z="3.139"/>
+            </clashpoint>
+            <gridlocation>B-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>661495</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>60CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>60CA085</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>60CA085</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>436501</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto95" guid="bae82429-c0f9-465b-89b3-0935f7be7cdd" href="EST - FNT_files\cd100029.jpg" status="approved" distance="-0.008">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.953" y="1.096" z="2.677"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>662573</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>60CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>60CA085</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>60CA085</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>555973</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto96" guid="3a8946bc-402b-43ca-a5bb-661c23095d98" href="EST - FNT_files\cd100030.jpg" status="approved" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.559" y="2.251" z="-0.260"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>450301</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>527185</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Juncao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Juncao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto98" guid="915390a8-96bb-42de-886b-1e2c91778bd6" href="EST - FNT_files\cd100031.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.942" y="1.095" z="2.740"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>662573</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>60CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>60CA085</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>60CA085</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>462543</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Te - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Te - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto99" guid="370dff12-0378-46a4-83ec-72f4e8561e44" href="EST - FNT_files\cd100032.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.937" y="1.138" z="2.633"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>662573</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>60CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>60CA085</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>60CA085</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>461295</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto100" guid="5f048676-d7b5-4fed-981e-a17e00e273e9" href="EST - FNT_files\cd100033.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.937" y="1.131" z="2.797"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>662573</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>60CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>60CA085</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>60CA085</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>461310</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto101" guid="69d9c4dd-d21e-4dea-81fc-d459781a7bbf" href="EST - FNT_files\cd100034.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.791" y="0.922" z="2.445"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>654296</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil U - Metalcom</node>
+                  <node>62C085</node>
+                  <node>Perfil U - Metalcom</node>
+                  <node>62C085</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>62C085</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>408912</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto102" guid="14fbff76-0c07-410f-88dc-40adff9aac01" href="EST - FNT_files\cd100035.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.564" y="0.454" z="-0.271"/>
+            </clashpoint>
+            <gridlocation>A-3.1 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>450301</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>446953</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto105" guid="f10d8550-a459-4f25-a7e8-3a1e2b04a7df" href="EST - FNT_files\cd100036.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.776" y="-0.078" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-4 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>652621</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil U - Metalcom</node>
+                  <node>92C085</node>
+                  <node>Perfil U - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil U - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil U - Metalcom: 92C085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536828</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Aparatos sanitarios</node>
+                  <node>M_Bañera</node>
+                  <node>Bañera 1200 x 700</node>
+                  <node>M_Bañera</node>
+                  <node>Bañera 1200 x 700</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Bañera 1200 x 700</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos sanitarios</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto106" guid="e0ae49b1-4438-4d82-967a-1e00dcddf90f" href="EST - FNT_files\cd100037.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.776" y="1.011" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>653242</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil U - Metalcom</node>
+                  <node>92C085</node>
+                  <node>Perfil U - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil U - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil U - Metalcom: 92C085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536828</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Aparatos sanitarios</node>
+                  <node>M_Bañera</node>
+                  <node>Bañera 1200 x 700</node>
+                  <node>M_Bañera</node>
+                  <node>Bañera 1200 x 700</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Bañera 1200 x 700</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos sanitarios</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto107" guid="32449845-69cb-4d63-89f9-0170b8bdf847" href="EST - FNT_files\cd100038.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.563" y="3.153" z="-0.258"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>450301</value>
+                </objectattribute>
+                <layer>&lt;Sin nivel&gt;</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>&lt;Sin nivel&gt;</node>
+                  <node>Armadura estructural</node>
+                  <node>Barra de armadura</node>
+                  <node>PHI 8</node>
+                  <node>Barra de armadura</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Barra de armadura</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armadura estructural: Barra de armadura: PHI 8</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>527234</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto109" guid="cb14cf94-ef60-4119-86e2-a0b79e5c2762" href="EST - FNT_files\cd100039.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.909" y="1.145" z="2.837"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>627549</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>60CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil C - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil C - Metalcom: 60CA085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>461310</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto110" guid="6a274bf8-1ccb-4621-91bc-d40911737a0b" href="EST - FNT_files\cd100040.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.777" y="-0.119" z="2.633"/>
+            </clashpoint>
+            <gridlocation>A-3.2 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>652892</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>90CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil C - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil C - Metalcom: 90CA085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536828</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Aparatos sanitarios</node>
+                  <node>M_Bañera</node>
+                  <node>Bañera 1200 x 700</node>
+                  <node>M_Bañera</node>
+                  <node>Bañera 1200 x 700</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Bañera 1200 x 700</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos sanitarios</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto111" guid="d6017284-d731-433a-a4ca-935b26ef5f6a" href="EST - FNT_files\cd100041.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.777" y="-0.085" z="2.840"/>
+            </clashpoint>
+            <gridlocation>A-4 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>652580</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>90CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil C - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil C - Metalcom: 90CA085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536828</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Aparatos sanitarios</node>
+                  <node>M_Bañera</node>
+                  <node>Bañera 1200 x 700</node>
+                  <node>M_Bañera</node>
+                  <node>Bañera 1200 x 700</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Bañera 1200 x 700</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos sanitarios</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto112" guid="c12b2f90-1745-4852-99f1-8c88e75d9645" href="EST - FNT_files\cd100042.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.778" y="0.982" z="2.473"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>653240</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>90CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil C - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil C - Metalcom: 90CA085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536828</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Aparatos sanitarios</node>
+                  <node>M_Bañera</node>
+                  <node>Bañera 1200 x 700</node>
+                  <node>M_Bañera</node>
+                  <node>Bañera 1200 x 700</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Bañera 1200 x 700</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos sanitarios</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto113" guid="1e7fbfe0-8665-4787-a045-bd12b7e373a2" href="EST - FNT_files\cd100043.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.777" y="1.058" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>653246</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>90CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil C - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil C - Metalcom: 90CA085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536828</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Aparatos sanitarios</node>
+                  <node>M_Bañera</node>
+                  <node>Bañera 1200 x 700</node>
+                  <node>M_Bañera</node>
+                  <node>Bañera 1200 x 700</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Bañera 1200 x 700</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos sanitarios</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto114" guid="2fdda693-39bb-4cf7-9226-4b92708a9979" href="EST - FNT_files\cd100044.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.778" y="0.433" z="2.656"/>
+            </clashpoint>
+            <gridlocation>A-3.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>656163</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>90CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>90CA085</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>90CA085</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536828</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Aparatos sanitarios</node>
+                  <node>M_Bañera</node>
+                  <node>Bañera 1200 x 700</node>
+                  <node>M_Bañera</node>
+                  <node>Bañera 1200 x 700</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Bañera 1200 x 700</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos sanitarios</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto115" guid="4058eb2c-5585-4bc8-9d38-fb30ec08ce8a" href="EST - FNT_files\cd100045.jpg" status="approved" distance="-0.001">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.974" y="1.102" z="2.800"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>662573</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>60CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>60CA085</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>60CA085</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>552938</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto116" guid="4f9661c9-1380-4805-86c0-54a6636874e3" href="EST - FNT_files\cd100046.jpg" status="approved" distance="-0.001">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.778" y="1.079" z="2.440"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="1" second="20"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="2" second="28"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>653244</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Armazón estructural</node>
+                  <node>Perfil C - Metalcom</node>
+                  <node>90CA085</node>
+                  <node>Perfil C - Metalcom</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Perfil C - Metalcom</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: Perfil C - Metalcom: 90CA085</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536828</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Aparatos sanitarios</node>
+                  <node>M_Bañera</node>
+                  <node>Bañera 1200 x 700</node>
+                  <node>M_Bañera</node>
+                  <node>Bañera 1200 x 700</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Bañera 1200 x 700</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos sanitarios</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="m" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="m">
+    <clashtests>
+      <clashtest name="ELE - GAS" test_type="clearance" status="ok" tolerance="0.600" merge_composites="1">
+        <linkage mode="none"/>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/GAS/Llave de GAS</locator>
+          </clashselection>
+        </right>
+        <rules/>
+        <summary total="1" new="0" active="1" reviewed="0" approved="0" resolved="0">
+          <testtype>De espacio libre</testtype>
+          <teststatus>Aceptar</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Conflicto1" guid="ea59b9c5-3137-49cc-bbbd-00af72bcfa74" href="ELE - GAS_files\cd070001.jpg" status="active" distance="0.155">
+            <description>De espacio libre</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.269" y="1.335" z="0.994"/>
+            </clashpoint>
+            <gridlocation>B-2 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="50" second="31"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>813759</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>358705</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>GAS.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>Tuberia Cobre</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: Tuberia Cobre</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>

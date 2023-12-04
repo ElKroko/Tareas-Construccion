@@ -1,0 +1,1541 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="m" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="m">
+    <clashtests>
+      <clashtest name="ARQ_PUE VS EST" test_type="hard" status="ok" tolerance="0.001" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Puertas</locator>
+          </clashselection>
+        </left>
+        <rules/>
+        <summary total="22" new="22" active="0" reviewed="0" approved="0" resolved="0">
+          <testtype>Estático</testtype>
+          <teststatus>Aceptar</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Conflicto1" guid="49a28084-e502-4b67-94f1-b5a31263adac" href="ARQ_PUE VS EST_files\cd010001.jpg" status="new" distance="-0.130">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="10.778" y="-9.242" z="3.336"/>
+            </clashpoint>
+            <gridlocation>3&apos;-C : Nivel 2 (+3.32)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>867418</value>
+                </objectattribute>
+                <layer>Nivel 1 (+0.00)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 1 (+0.00)</node>
+                  <node>Puertas</node>
+                  <node>PR - SIMPLE</node>
+                  <node>P2R - 900</node>
+                  <node>PR - SIMPLE</node>
+                  <node>P2R - 900</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>P2R - 900</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Puertas</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>650830</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +3.54 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +3.54 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 202  30/70</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 202  30/70</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto2" guid="9c921fdf-028b-41c4-b18f-3071ac118908" href="ARQ_PUE VS EST_files\cd010002.jpg" status="new" distance="-0.116">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="10.838" y="-9.358" z="6.440"/>
+            </clashpoint>
+            <gridlocation>3&apos;-C : Nivel 3 OFI (+5.90)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1654802</value>
+                </objectattribute>
+                <layer>Nivel 2 AUL (+3.60)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 AUL (+3.60)</node>
+                  <node>Puertas</node>
+                  <node>PR - SIMPLE</node>
+                  <node>P2R - 900</node>
+                  <node>PR - SIMPLE</node>
+                  <node>P2R - 900</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>P2R - 900</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Puertas</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>313286</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 306  30/70</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>Concrete, Cast-in-Place gray</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Concrete, Cast-in-Place gray</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto3" guid="fcd726d2-2d9b-4862-8163-2c42d60ece21" href="ARQ_PUE VS EST_files\cd010003.jpg" status="new" distance="-0.099">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="34.666" y="-12.929" z="10.100"/>
+            </clashpoint>
+            <gridlocation>8a-D : Nivel 4 OFI (+8.85)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1244315</value>
+                </objectattribute>
+                <layer>Nivel 3 - AUL (+7.20)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 3 - AUL (+7.20)</node>
+                  <node>Puertas</node>
+                  <node>PM - DOBLE</node>
+                  <node>P2M - 1200</node>
+                  <node>PM - DOBLE</node>
+                  <node>P2M - 1200</node>
+                  <node>Aluminio</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Aluminio</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>335432</value>
+                </objectattribute>
+                <layer>N.O.G. (4) +10.80 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (4) +10.80 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 305  25/70</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 305  25/70</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto4" guid="97495c7e-3862-4ae9-8984-743c0903e31b" href="ARQ_PUE VS EST_files\cd010004.jpg" status="new" distance="-0.098">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="34.671" y="-12.929" z="6.440"/>
+            </clashpoint>
+            <gridlocation>8a-D : Nivel 3 OFI (+5.90)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1237349</value>
+                </objectattribute>
+                <layer>Nivel 2 AUL (+3.60)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 AUL (+3.60)</node>
+                  <node>Puertas</node>
+                  <node>PM - DOBLE</node>
+                  <node>P2M - 1200</node>
+                  <node>PM - DOBLE</node>
+                  <node>P2M - 1200</node>
+                  <node>Aluminio</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Aluminio</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>321271</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 305  25/70</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 305  25/70</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto5" guid="9ee2fde7-de37-4d0a-8ec4-add11c4e3152" href="ARQ_PUE VS EST_files\cd010005.jpg" status="new" distance="-0.078">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="34.671" y="-13.092" z="6.940"/>
+            </clashpoint>
+            <gridlocation>8a-D : Nivel 3 (+6.58)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1237433</value>
+                </objectattribute>
+                <layer>Nivel 2 AUL (+3.60)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 AUL (+3.60)</node>
+                  <node>Puertas</node>
+                  <node>PM - DOBLE</node>
+                  <node>P2M - 1200</node>
+                  <node>PM - DOBLE</node>
+                  <node>P2M - 1200</node>
+                  <node>Aluminio</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Aluminio</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>321271</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 305  25/70</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 305  25/70</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto6" guid="7ec99e53-838a-41fd-b023-1fd18787a0bf" href="ARQ_PUE VS EST_files\cd010006.jpg" status="new" distance="-0.064">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="34.711" y="-13.066" z="10.100"/>
+            </clashpoint>
+            <gridlocation>8a-D : Nivel 4 OFI (+8.85)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1244273</value>
+                </objectattribute>
+                <layer>Nivel 3 - AUL (+7.20)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 3 - AUL (+7.20)</node>
+                  <node>Puertas</node>
+                  <node>PM - DOBLE</node>
+                  <node>P2M - 1200</node>
+                  <node>PM - DOBLE</node>
+                  <node>P2M - 1200</node>
+                  <node>Parte compuesta</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>P2M - 1200</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Parte compuesta</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>335432</value>
+                </objectattribute>
+                <layer>N.O.G. (4) +10.80 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (4) +10.80 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 305  25/70</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 305  25/70</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto7" guid="34e80b81-03e9-4785-9f41-33c7b4ce8ec5" href="ARQ_PUE VS EST_files\cd010007.jpg" status="new" distance="-0.054">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="33.880" y="-4.904" z="10.040"/>
+            </clashpoint>
+            <gridlocation>8a-B : Nivel 4 OFI (+8.85)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1243682</value>
+                </objectattribute>
+                <layer>Nivel 3 - AUL (+7.20)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 3 - AUL (+7.20)</node>
+                  <node>Puertas</node>
+                  <node>PM - DOBLE</node>
+                  <node>P2M - 1200</node>
+                  <node>PM - DOBLE</node>
+                  <node>P2M - 1200</node>
+                  <node>Aluminio</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Aluminio</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>340911</value>
+                </objectattribute>
+                <layer>N.O.G. (4) +10.80 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (4) +10.80 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 401  30/70</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 401  30/70</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto8" guid="ef8f4378-c6a2-4d41-bcbd-5c27dcf51975" href="ARQ_PUE VS EST_files\cd010008.jpg" status="new" distance="-0.050">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="7.108" y="-12.893" z="13.300"/>
+            </clashpoint>
+            <gridlocation>D-3 : Nivel 5 (+11.86)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1703328</value>
+                </objectattribute>
+                <layer>Nivel 4 - AUL (+10.80)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 4 - AUL (+10.80)</node>
+                  <node>Puertas</node>
+                  <node>PM - DOBLE</node>
+                  <node>P2M - 1200</node>
+                  <node>PM - DOBLE</node>
+                  <node>P2M - 1200</node>
+                  <node>Aluminio</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Aluminio</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>346211</value>
+                </objectattribute>
+                <layer>N.O.G. (5) +13.74 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (5) +13.74 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V.  505 30/200</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V.  505 30/200</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto9" guid="65ce8613-5f79-4026-b5e9-135f36b48e25" href="ARQ_PUE VS EST_files\cd010009.jpg" status="new" distance="-0.036">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-10.230" y="-23.483" z="2.373"/>
+            </clashpoint>
+            <gridlocation>F&apos;&apos;-0 : Nivel 2 (+1.62)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>996102</value>
+                </objectattribute>
+                <layer>Nivel 1 (+0.00)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 1 (+0.00)</node>
+                  <node>Puertas</node>
+                  <node>PB - DOBLE</node>
+                  <node>P1B - 120</node>
+                  <node>PB - DOBLE</node>
+                  <node>P1B - 120</node>
+                  <node>Aluminio</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Aluminio</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>673236</value>
+                </objectattribute>
+                <layer>N.O.G. (1) -0.06 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (1) -0.06 AUL</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 15</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 15</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto10" guid="19dd981f-927f-4cbb-bca9-9d57781e363e" href="ARQ_PUE VS EST_files\cd010010.jpg" status="new" distance="-0.030">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="36.349" y="-28.396" z="-1.074"/>
+            </clashpoint>
+            <gridlocation>G&apos;&apos;-9 : Nivel -1 (+3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>559763</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Puertas</node>
+                  <node>PA - DOBLE</node>
+                  <node>P1A - 1200</node>
+                  <node>PA - DOBLE</node>
+                  <node>P1A - 1200</node>
+                  <node>Aluminio</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Aluminio</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>225982</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto11" guid="9f536c95-a5fd-465b-833d-7ae443df0853" href="ARQ_PUE VS EST_files\cd010011.jpg" status="new" distance="-0.030">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="37.395" y="-40.847" z="8.350"/>
+            </clashpoint>
+            <gridlocation>J-9 : Nivel 3 - AUL (+7.20)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1241752</value>
+                </objectattribute>
+                <layer>Nivel 3 OFI (+5.90)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 3 OFI (+5.90)</node>
+                  <node>Puertas</node>
+                  <node>PM - SIMPLE</node>
+                  <node>P1M - 90</node>
+                  <node>PM - SIMPLE</node>
+                  <node>P1M - 90</node>
+                  <node>Parte compuesta</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>P1M - 90</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Parte compuesta</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>334181</value>
+                </objectattribute>
+                <layer>N.O.G. (4) +8.82 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (4) +8.82 ADM</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 413 20/47</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 413 20/47</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto12" guid="570121a0-adfa-4a4a-b84b-64725e6ebfda" href="ARQ_PUE VS EST_files\cd010012.jpg" status="new" distance="-0.029">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="34.951" y="-16.573" z="-1.060"/>
+            </clashpoint>
+            <gridlocation>8a-E : Nivel -1 (+3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>560110</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Puertas</node>
+                  <node>PD - DOBLE</node>
+                  <node>P1D - 120</node>
+                  <node>PD - DOBLE</node>
+                  <node>P1D - 120</node>
+                  <node>Aluminio</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Aluminio</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>207521</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto13" guid="8bd2ffc9-6639-4d09-9275-10a0ab11d431" href="ARQ_PUE VS EST_files\cd010013.jpg" status="new" distance="-0.029">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="31.180" y="-8.240" z="6.440"/>
+            </clashpoint>
+            <gridlocation>B&apos;-8 : Nivel 3 OFI (+5.90)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1654354</value>
+                </objectattribute>
+                <layer>Nivel 2 AUL (+3.60)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 AUL (+3.60)</node>
+                  <node>Puertas</node>
+                  <node>PM - SIMPLE</node>
+                  <node>P1M - 90</node>
+                  <node>PM - SIMPLE</node>
+                  <node>P1M - 90</node>
+                  <node>Parte compuesta</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>P1M - 90</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Parte compuesta</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>321383</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 306  30/70</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>Concrete, Cast-in-Place gray</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Concrete, Cast-in-Place gray</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto14" guid="7a64177e-82fd-448a-9610-82c1825fda68" href="ARQ_PUE VS EST_files\cd010014.jpg" status="new" distance="-0.028">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="37.360" y="-40.848" z="11.500"/>
+            </clashpoint>
+            <gridlocation>J-9 : Nivel 4 - AUL (+10.80)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1702420</value>
+                </objectattribute>
+                <layer>Nivel 4 OFI (+8.85)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 4 OFI (+8.85)</node>
+                  <node>Puertas</node>
+                  <node>PM - SIMPLE</node>
+                  <node>P1M - 90</node>
+                  <node>PM - SIMPLE</node>
+                  <node>P1M - 90</node>
+                  <node>Parte compuesta</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>P1M - 90</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Parte compuesta</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>843687</value>
+                </objectattribute>
+                <layer>N.O.G. (5) +11.97 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (5) +11.97 ADM</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 513 20/47</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 513 20/47</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto15" guid="cb2402b0-6855-4ba9-8c4d-651e4afd1f9a" href="ARQ_PUE VS EST_files\cd010015.jpg" status="new" distance="-0.021">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-7.813" y="-7.936" z="4.599"/>
+            </clashpoint>
+            <gridlocation>B&apos;&apos;-1 : Nivel 2 AUL (+3.60)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>995415</value>
+                </objectattribute>
+                <layer>Nivel 2 (+2.50)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 (+2.50)</node>
+                  <node>Puertas</node>
+                  <node>PR - DOBLE</node>
+                  <node>P6R - 1200</node>
+                  <node>PR - DOBLE</node>
+                  <node>P6R - 1200</node>
+                  <node>Aluminio</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Aluminio</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>987388</value>
+                </objectattribute>
+                <layer>Nivel +0.00</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel +0.00</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>TABIQUE METALCOM 15</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: TABIQUE METALCOM 15</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto16" guid="56425350-9122-45e0-a6cf-e7aa03931967" href="ARQ_PUE VS EST_files\cd010016.jpg" status="new" distance="-0.020">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="39.951" y="-16.556" z="-1.061"/>
+            </clashpoint>
+            <gridlocation>E-10 : Nivel -1 (+3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>560036</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Puertas</node>
+                  <node>PD - DOBLE</node>
+                  <node>P1D - 120</node>
+                  <node>PD - DOBLE</node>
+                  <node>P1D - 120</node>
+                  <node>Aluminio</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Aluminio</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>701229</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto17" guid="acc3271b-6985-4925-a239-16ace20b32c7" href="ARQ_PUE VS EST_files\cd010017.jpg" status="new" distance="-0.018">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="13.651" y="-8.397" z="13.600"/>
+            </clashpoint>
+            <gridlocation>B&apos;-4 : Nivel 5 (+11.86)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1251088</value>
+                </objectattribute>
+                <layer>Nivel 4 - AUL (+10.80)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 4 - AUL (+10.80)</node>
+                  <node>Puertas</node>
+                  <node>PR - SIMPLE</node>
+                  <node>P3R - 700</node>
+                  <node>PR - SIMPLE</node>
+                  <node>P3R - 700</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>P3R - 700</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Puertas</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>778065</value>
+                </objectattribute>
+                <layer>N.O.G. (4) +10.80 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (4) +10.80 AUL</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto18" guid="05e59b39-a1ff-4bd3-89a7-66200e3425a3" href="ARQ_PUE VS EST_files\cd010018.jpg" status="new" distance="-0.013">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="21.164" y="-5.199" z="6.440"/>
+            </clashpoint>
+            <gridlocation>B-6 : Nivel 3 OFI (+5.90)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1654668</value>
+                </objectattribute>
+                <layer>Nivel 2 AUL (+3.60)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 AUL (+3.60)</node>
+                  <node>Puertas</node>
+                  <node>PM - SIMPLE</node>
+                  <node>P1M - 90</node>
+                  <node>PM - SIMPLE</node>
+                  <node>P1M - 90</node>
+                  <node>Parte compuesta</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>P1M - 90</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Parte compuesta</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>322172</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 306  30/70</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 306  30/70</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto19" guid="16d4b895-48ac-4d91-9898-4cc6a88143fb" href="ARQ_PUE VS EST_files\cd010019.jpg" status="new" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="33.040" y="-20.822" z="-1.067"/>
+            </clashpoint>
+            <gridlocation>8&apos;-F : Nivel -1 (+3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1712479</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Puertas</node>
+                  <node>PA - SIMPLE</node>
+                  <node>P2A - 80</node>
+                  <node>PA - SIMPLE</node>
+                  <node>P2A - 80</node>
+                  <node>Parte compuesta</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>P2A - 80</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Parte compuesta</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>797672</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto20" guid="bdd2722c-a605-48e8-bb20-720e4a5811c7" href="ARQ_PUE VS EST_files\cd010020.jpg" status="new" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="37.360" y="-40.827" z="5.400"/>
+            </clashpoint>
+            <gridlocation>J-9 : Nivel 3 (+4.62)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1652360</value>
+                </objectattribute>
+                <layer>Nivel 2 OFI (+2.95)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 OFI (+2.95)</node>
+                  <node>Puertas</node>
+                  <node>PM - SIMPLE</node>
+                  <node>P1M - 90</node>
+                  <node>PM - SIMPLE</node>
+                  <node>P1M - 90</node>
+                  <node>Parte compuesta</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>P1M - 90</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Parte compuesta</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>330628</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +5.87 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +5.87 ADM</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 310 20/47</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 310 20/47</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto21" guid="ece014de-0644-4d94-b7a3-c25be080af56" href="ARQ_PUE VS EST_files\cd010021.jpg" status="new" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="38.401" y="-29.868" z="-1.063"/>
+            </clashpoint>
+            <gridlocation>H-9 : Nivel -1 (+3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1642078</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Puertas</node>
+                  <node>PA - SIMPLE</node>
+                  <node>P3A - 90</node>
+                  <node>PA - SIMPLE</node>
+                  <node>P3A - 90</node>
+                  <node>Parte compuesta</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>P3A - 90</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Parte compuesta</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>207834</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 40</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 40</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto22" guid="1487d71a-30b0-438d-9653-a28154fcca55" href="ARQ_PUE VS EST_files\cd010022.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="8.652" y="-9.388" z="10.940"/>
+            </clashpoint>
+            <gridlocation>C-3 : Nivel 4 - AUL (+10.80)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="13" hour="23" minute="47" second="11"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1250927</value>
+                </objectattribute>
+                <layer>Nivel 4 - AUL (+10.80)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 4 - AUL (+10.80)</node>
+                  <node>Puertas</node>
+                  <node>PM - DOBLE</node>
+                  <node>P2M - 1200</node>
+                  <node>PM - DOBLE</node>
+                  <node>P2M - 1200</node>
+                  <node>Aluminio</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Aluminio</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>345322</value>
+                </objectattribute>
+                <layer>N.O.G. (4) +10.80 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (4) +10.80 AUL</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>

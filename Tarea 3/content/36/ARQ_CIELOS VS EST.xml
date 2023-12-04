@@ -1,0 +1,1903 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="m" filename="ARQ VS EST - v2.nwd" filepath="C:\Users\Isaac Lemus\Google Drive\1.- BIMSG\1.- 2020\1.- Proyectos de Modelación\9.- CFT San Antonio\3.- En Trabajo\4.- Navisworks\12.- 14.02.21">
+  <batchtest name="Report" internal_name="Report" units="m">
+    <clashtests>
+      <clashtest name="ARQ_CIELOS VS EST" test_type="hard" status="ok" tolerance="0.001" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Cielos</locator>
+          </clashselection>
+        </left>
+        <rules/>
+        <summary total="28" new="28" active="0" reviewed="0" approved="0" resolved="0">
+          <testtype>Estático</testtype>
+          <teststatus>Aceptar</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Conflicto1" guid="3f116d7d-e533-42f9-bbe1-d4ee8a355060" href="ARQ_CIELOS VS EST_files\cd040001.jpg" status="new" distance="-0.200">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="36.003" y="-39.170" z="2.520"/>
+            </clashpoint>
+            <gridlocation>8a-I1 : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1513915</value>
+                </objectattribute>
+                <layer>Nivel 1 OFI (+0.17)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 1 OFI (+0.17)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo - Tablon de Madera / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo - Tablon de Madera / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>655802</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +2.92 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +2.92 ADM</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 207  30/105</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 207  30/105</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto2" guid="d76b422b-39f5-4a0b-b602-3edc6c78e8db" href="ARQ_CIELOS VS EST_files\cd040002.jpg" status="new" distance="-0.090">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="27.171" y="-40.720" z="2.540"/>
+            </clashpoint>
+            <gridlocation>7&apos;&apos;&apos;-J : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1513915</value>
+                </objectattribute>
+                <layer>Nivel 1 OFI (+0.17)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 1 OFI (+0.17)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo - Tablon de Madera / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo - Tablon de Madera / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>655870</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +2.92 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +2.92 ADM</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 211  15/47</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 211  15/47</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto3" guid="d9925cde-1b5b-43b1-b83a-1cdf9a239773" href="ARQ_CIELOS VS EST_files\cd040003.jpg" status="new" distance="-0.090">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="36.242" y="-45.820" z="2.540"/>
+            </clashpoint>
+            <gridlocation>K-9 : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1512408</value>
+                </objectattribute>
+                <layer>Nivel 1 OFI (+0.17)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 1 OFI (+0.17)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo - Tablon de Madera / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo - Tablon de Madera / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>655277</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +2.92 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +2.92 ADM</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 210   20/47</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 210   20/47</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto4" guid="a39dca60-fbc5-4aa8-9572-c26679bd0d7b" href="ARQ_CIELOS VS EST_files\cd040004.jpg" status="new" distance="-0.090">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="36.601" y="-40.820" z="2.540"/>
+            </clashpoint>
+            <gridlocation>J-9 : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1512408</value>
+                </objectattribute>
+                <layer>Nivel 1 OFI (+0.17)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 1 OFI (+0.17)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo - Tablon de Madera / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo - Tablon de Madera / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>655391</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +2.92 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +2.92 ADM</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 210   20/47</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 210   20/47</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto5" guid="375e881c-0ec5-4ad9-bd7a-3c206d1c177a" href="ARQ_CIELOS VS EST_files\cd040005.jpg" status="new" distance="-0.090">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="25.820" y="-41.020" z="2.540"/>
+            </clashpoint>
+            <gridlocation>7&apos;-J : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1510781</value>
+                </objectattribute>
+                <layer>Nivel 1 OFI (+0.17)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 1 OFI (+0.17)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo - Tablon de Madera / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo - Tablon de Madera / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>655634</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +2.92 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +2.92 ADM</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 213  20/47</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 213  20/47</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto6" guid="7f186698-ad8d-49c4-9976-5469ea60e11b" href="ARQ_CIELOS VS EST_files\cd040006.jpg" status="new" distance="-0.090">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="27.021" y="-42.742" z="2.540"/>
+            </clashpoint>
+            <gridlocation>J&apos;-7&apos;&apos;&apos; : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1510781</value>
+                </objectattribute>
+                <layer>Nivel 1 OFI (+0.17)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 1 OFI (+0.17)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo - Tablon de Madera / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo - Tablon de Madera / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>655870</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +2.92 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +2.92 ADM</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 211  15/47</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 211  15/47</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto7" guid="aef7834d-a127-4473-9eb1-9999b922e8e3" href="ARQ_CIELOS VS EST_files\cd040007.jpg" status="new" distance="-0.075">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="8.588" y="-5.150" z="9.570"/>
+            </clashpoint>
+            <gridlocation>B-3 : Nivel 4 OFI (+8.85)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1496897</value>
+                </objectattribute>
+                <layer>Nivel 3 - AUL (+7.20)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 3 - AUL (+7.20)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo Yeso-Cartón / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo Yeso-Cartón / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>742183</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Pilares estructurales</node>
+                  <node>M_Concrete-Rectangular-Column</node>
+                  <node>P 404</node>
+                  <node>M_Concrete-Rectangular-Column</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular-Column</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Pilares estructurales: M_Concrete-Rectangular-Column: P 404</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto8" guid="189e713a-7b44-4b19-b1e5-07d90d30ced2" href="ARQ_CIELOS VS EST_files\cd040008.jpg" status="new" distance="-0.051">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="41.186" y="-48.020" z="5.300"/>
+            </clashpoint>
+            <gridlocation>L-10 : Nivel 3 (+4.62)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1481581</value>
+                </objectattribute>
+                <layer>Nivel 2 OFI (+2.95)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 OFI (+2.95)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo Yeso-Cartón / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo Yeso-Cartón / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>331254</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +5.87 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +5.87 ADM</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 311 20/95 +30</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 311 20/95 +30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto9" guid="52b987de-ba15-4e2f-ba8a-dc2eae65f44f" href="ARQ_CIELOS VS EST_files\cd040009.jpg" status="new" distance="-0.051">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="41.202" y="-38.130" z="5.320"/>
+            </clashpoint>
+            <gridlocation>I&apos;&apos;-10 : Nivel 3 (+4.62)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1483066</value>
+                </objectattribute>
+                <layer>Nivel 2 OFI (+2.95)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 OFI (+2.95)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo Yeso-Cartón / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo Yeso-Cartón / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>331254</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +5.87 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +5.87 ADM</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 311 20/95 +30</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 311 20/95 +30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto10" guid="c66ca54d-9a1c-4574-aed6-9cdfc6ef3f48" href="ARQ_CIELOS VS EST_files\cd040010.jpg" status="new" distance="-0.051">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="41.202" y="-38.130" z="5.320"/>
+            </clashpoint>
+            <gridlocation>I&apos;&apos;-10 : Nivel 3 (+4.62)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1483066</value>
+                </objectattribute>
+                <layer>Nivel 2 OFI (+2.95)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 OFI (+2.95)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo Yeso-Cartón / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo Yeso-Cartón / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>759437</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +2.92 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +2.92 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto11" guid="599a1575-26ca-4090-9a40-d69714f36696" href="ARQ_CIELOS VS EST_files\cd040011.jpg" status="new" distance="-0.051">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="41.151" y="-36.041" z="8.270"/>
+            </clashpoint>
+            <gridlocation>I-10 : Nivel 3 - AUL (+7.20)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1493498</value>
+                </objectattribute>
+                <layer>Nivel 3 OFI (+5.90)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 3 OFI (+5.90)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo Yeso-Cartón / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo Yeso-Cartón / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>768894</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +5.87 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +5.87 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto12" guid="4f37546e-a483-4194-b98b-e735ad08f8e8" href="ARQ_CIELOS VS EST_files\cd040012.jpg" status="new" distance="-0.051">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="41.151" y="-48.940" z="8.250"/>
+            </clashpoint>
+            <gridlocation>L-10 : Nivel 3 - AUL (+7.20)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1492466</value>
+                </objectattribute>
+                <layer>Nivel 3 OFI (+5.90)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 3 OFI (+5.90)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo Yeso-Cartón / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo Yeso-Cartón / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>765177</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +5.87 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +5.87 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto13" guid="fa32f588-39fc-4e23-9512-b92268ab75a3" href="ARQ_CIELOS VS EST_files\cd040013.jpg" status="new" distance="-0.050">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="41.179" y="-38.130" z="11.220"/>
+            </clashpoint>
+            <gridlocation>I&apos;&apos;-10 : Nivel 4 - AUL (+10.80)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1508266</value>
+                </objectattribute>
+                <layer>Nivel 4 OFI (+8.85)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 4 OFI (+8.85)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo Yeso-Cartón / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo Yeso-Cartón / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>787739</value>
+                </objectattribute>
+                <layer>N.P.T. (5) +12.00</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.P.T. (5) +12.00</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V.S.I. 516  20/115 +30</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V.S.I. 516  20/115 +30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto14" guid="096a1f58-b7cf-41a8-a802-21eaf77c4805" href="ARQ_CIELOS VS EST_files\cd040014.jpg" status="new" distance="-0.050">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="41.151" y="-36.041" z="11.220"/>
+            </clashpoint>
+            <gridlocation>I-10 : Nivel 4 - AUL (+10.80)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1508266</value>
+                </objectattribute>
+                <layer>Nivel 4 OFI (+8.85)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 4 OFI (+8.85)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo Yeso-Cartón / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo Yeso-Cartón / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>773985</value>
+                </objectattribute>
+                <layer>N.O.G. (4) +8.82 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (4) +8.82 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto15" guid="ae35599e-eafe-42be-9b8a-583646fd66bc" href="ARQ_CIELOS VS EST_files\cd040015.jpg" status="new" distance="-0.050">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="41.151" y="-38.151" z="2.520"/>
+            </clashpoint>
+            <gridlocation>I&apos;&apos;-10 : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1512408</value>
+                </objectattribute>
+                <layer>Nivel 1 OFI (+0.17)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 1 OFI (+0.17)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo - Tablon de Madera / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo - Tablon de Madera / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>655215</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +2.92 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +2.92 ADM</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 209  20/78 +30</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 209  20/78 +30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto16" guid="087c6a88-98b2-45e3-8f10-f50648ce3a67" href="ARQ_CIELOS VS EST_files\cd040016.jpg" status="new" distance="-0.050">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="41.151" y="-38.010" z="2.540"/>
+            </clashpoint>
+            <gridlocation>I&apos;&apos;-10 : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1517509</value>
+                </objectattribute>
+                <layer>Nivel 1 OFI (+0.17)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 1 OFI (+0.17)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo - Tablon de Madera / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo - Tablon de Madera / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>663083</value>
+                </objectattribute>
+                <layer>N.O.G. (1) +0.11 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (1) +0.11 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto17" guid="1698e727-fc87-48f4-b296-5b082f9da243" href="ARQ_CIELOS VS EST_files\cd040017.jpg" status="new" distance="-0.050">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="36.212" y="-38.270" z="2.540"/>
+            </clashpoint>
+            <gridlocation>I1-9 : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1513915</value>
+                </objectattribute>
+                <layer>Nivel 1 OFI (+0.17)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 1 OFI (+0.17)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo - Tablon de Madera / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo - Tablon de Madera / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>655318</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +2.92 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +2.92 ADM</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 208   20/82</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 208   20/82</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto18" guid="64475096-2467-4b28-aa79-2fa91d2cc3c6" href="ARQ_CIELOS VS EST_files\cd040018.jpg" status="new" distance="-0.050">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="41.151" y="-46.505" z="2.520"/>
+            </clashpoint>
+            <gridlocation>K-10 : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1512408</value>
+                </objectattribute>
+                <layer>Nivel 1 OFI (+0.17)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 1 OFI (+0.17)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo - Tablon de Madera / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo - Tablon de Madera / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>662730</value>
+                </objectattribute>
+                <layer>N.O.G. (1) +0.11 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (1) +0.11 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto19" guid="5575d262-7588-4f53-bc23-e2a1bcfd876d" href="ARQ_CIELOS VS EST_files\cd040019.jpg" status="new" distance="-0.040">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="29.423" y="-40.820" z="2.540"/>
+            </clashpoint>
+            <gridlocation>7b-J : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1513915</value>
+                </objectattribute>
+                <layer>Nivel 1 OFI (+0.17)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 1 OFI (+0.17)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo - Tablon de Madera / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo - Tablon de Madera / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>655634</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +2.92 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +2.92 ADM</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 213  20/47</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 213  20/47</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto20" guid="43e45d80-b753-4ca3-9581-a91096c1d5e2" href="ARQ_CIELOS VS EST_files\cd040020.jpg" status="new" distance="-0.029">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="36.312" y="-40.900" z="5.320"/>
+            </clashpoint>
+            <gridlocation>J-9 : Nivel 3 (+4.62)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1468317</value>
+                </objectattribute>
+                <layer>Nivel 2 OFI (+2.95)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 OFI (+2.95)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo Yeso-Cartón / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo Yeso-Cartón / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>758093</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +2.92 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +2.92 ADM</node>
+                  <node>Pilares estructurales</node>
+                  <node>M_Concrete-Square-Column</node>
+                  <node>P 303</node>
+                  <node>M_Concrete-Square-Column</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Square-Column</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Pilares estructurales: M_Concrete-Square-Column: P 303</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto21" guid="e8b656d4-5f6e-4457-a705-7bf7b2e23174" href="ARQ_CIELOS VS EST_files\cd040021.jpg" status="new" distance="-0.024">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.680" y="-9.573" z="9.550"/>
+            </clashpoint>
+            <gridlocation>C-2 : Nivel 4 OFI (+8.85)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1499806</value>
+                </objectattribute>
+                <layer>Nivel 3 - AUL (+7.20)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 3 - AUL (+7.20)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo Yeso-Cartón / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo Yeso-Cartón / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>335335</value>
+                </objectattribute>
+                <layer>N.O.G. (1) -0.06 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (1) -0.06 AUL</node>
+                  <node>Pilares estructurales</node>
+                  <node>M_Concrete-Round-Column</node>
+                  <node>600mm</node>
+                  <node>M_Concrete-Round-Column</node>
+                  <node>Concrete, Cast-in-Place gray</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Concrete, Cast-in-Place gray</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto22" guid="9bd5160d-a39b-4d48-8cbe-c37a4900daf8" href="ARQ_CIELOS VS EST_files\cd040022.jpg" status="new" distance="-0.022">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.663" y="-5.210" z="9.570"/>
+            </clashpoint>
+            <gridlocation>B-2 : Nivel 4 OFI (+8.85)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1499806</value>
+                </objectattribute>
+                <layer>Nivel 3 - AUL (+7.20)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 3 - AUL (+7.20)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo Yeso-Cartón / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo Yeso-Cartón / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>335333</value>
+                </objectattribute>
+                <layer>N.O.G. (1) -0.06 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (1) -0.06 AUL</node>
+                  <node>Pilares estructurales</node>
+                  <node>M_Concrete-Round-Column</node>
+                  <node>600mm</node>
+                  <node>M_Concrete-Round-Column</node>
+                  <node>Concrete, Cast-in-Place gray</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Concrete, Cast-in-Place gray</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto23" guid="49c0785c-645f-488a-9b59-38e629008154" href="ARQ_CIELOS VS EST_files\cd040023.jpg" status="new" distance="-0.020">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.357" y="-4.718" z="9.550"/>
+            </clashpoint>
+            <gridlocation>B-2 : Nivel 4 OFI (+8.85)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1498315</value>
+                </objectattribute>
+                <layer>Nivel 3 - AUL (+7.20)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 3 - AUL (+7.20)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo Yeso-Cartón / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo Yeso-Cartón / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>335333</value>
+                </objectattribute>
+                <layer>N.O.G. (1) -0.06 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (1) -0.06 AUL</node>
+                  <node>Pilares estructurales</node>
+                  <node>M_Concrete-Round-Column</node>
+                  <node>600mm</node>
+                  <node>M_Concrete-Round-Column</node>
+                  <node>Concrete, Cast-in-Place gray</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Concrete, Cast-in-Place gray</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto24" guid="e2920548-813c-4b9f-bd58-6c313f2807d7" href="ARQ_CIELOS VS EST_files\cd040024.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="4.250" y="-4.970" z="9.570"/>
+            </clashpoint>
+            <gridlocation>2&apos;-B : Nivel 4 OFI (+8.85)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1499806</value>
+                </objectattribute>
+                <layer>Nivel 3 - AUL (+7.20)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 3 - AUL (+7.20)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo Yeso-Cartón / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo Yeso-Cartón / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>336814</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Pilares estructurales</node>
+                  <node>M_Concrete-Square-Column</node>
+                  <node>P 401</node>
+                  <node>M_Concrete-Square-Column</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Square-Column</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Pilares estructurales: M_Concrete-Square-Column: P 401</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto25" guid="5cd11d71-e4d8-4e65-8eee-1c3529aceaf4" href="ARQ_CIELOS VS EST_files\cd040025.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="4.250" y="-9.542" z="9.570"/>
+            </clashpoint>
+            <gridlocation>2&apos;-C : Nivel 4 OFI (+8.85)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1499806</value>
+                </objectattribute>
+                <layer>Nivel 3 - AUL (+7.20)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 3 - AUL (+7.20)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo Yeso-Cartón / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo Yeso-Cartón / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>336732</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Pilares estructurales</node>
+                  <node>M_Concrete-Square-Column</node>
+                  <node>P 401</node>
+                  <node>M_Concrete-Square-Column</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Square-Column</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Pilares estructurales: M_Concrete-Square-Column: P 401</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto26" guid="45374f29-4bc9-442a-bd02-eb0e5285e87d" href="ARQ_CIELOS VS EST_files\cd040026.jpg" status="new" distance="-0.001">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="29.122" y="-46.027" z="5.320"/>
+            </clashpoint>
+            <gridlocation>7b-K : Nivel 3 (+4.62)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1485519</value>
+                </objectattribute>
+                <layer>Nivel 2 OFI (+2.95)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 OFI (+2.95)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo Volcanita - 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo Volcanita - 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>745334</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +3.32 CAS</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +3.32 CAS</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto27" guid="f6678f34-0f92-479d-b75e-50beeea8ad4b" href="ARQ_CIELOS VS EST_files\cd040027.jpg" status="new" distance="-0.001">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="25.740" y="-45.209" z="5.300"/>
+            </clashpoint>
+            <gridlocation>7&apos;-L : Nivel 3 (+4.62)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1456113</value>
+                </objectattribute>
+                <layer>Nivel 2 OFI (+2.95)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 OFI (+2.95)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo Yeso-Cartón / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo Yeso-Cartón / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>745334</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +3.32 CAS</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +3.32 CAS</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto28" guid="7802b6e7-b961-416d-af4a-6d75e432ac46" href="ARQ_CIELOS VS EST_files\cd040028.jpg" status="new" distance="-0.001">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="31.361" y="-46.570" z="5.320"/>
+            </clashpoint>
+            <gridlocation>L-8 : Nivel 3 (+4.62)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="14" hour="22" minute="4" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1457820</value>
+                </objectattribute>
+                <layer>Nivel 2 OFI (+2.95)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 OFI (+2.95)</node>
+                  <node>Techos</node>
+                  <node>Techo compuesto</node>
+                  <node>Cielo Yeso-Cartón / 20mm</node>
+                  <node>Techo compuesto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Techo compuesto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Techos: Techo compuesto: Cielo Yeso-Cartón / 20mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>745334</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +3.32 CAS</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>ARQ VS EST - v2.nwd</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +3.32 CAS</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>

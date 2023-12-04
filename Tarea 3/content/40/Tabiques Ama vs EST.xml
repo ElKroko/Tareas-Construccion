@@ -1,0 +1,4417 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="m" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="m">
+    <clashtests>
+      <clashtest name="Tabiques Ama vs EST" test_type="hard" status="ok" tolerance="0.001" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Tabique Amarillo</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Muros Estructurales</locator>
+          </clashselection>
+        </right>
+        <rules/>
+        <summary total="65" new="65" active="0" reviewed="0" approved="0" resolved="0">
+          <testtype>Estático</testtype>
+          <teststatus>Aceptar</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Conflicto1" guid="b8d1b829-94b4-4e3f-9bf1-f25563cdf72d" href="Tabiques Ama vs EST_files\cd000001.jpg" status="new" distance="-0.133">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-6.276" y="-8.481" z="-0.060"/>
+            </clashpoint>
+            <gridlocation>B&apos;&apos;-1 : Nivel 1 (-0.06)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>990962</value>
+                </objectattribute>
+                <layer>Nivel 1 (-0.06)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 1 (-0.06)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>688826</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 22</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 22</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto2" guid="10fc4fa7-ca32-4eb3-a966-ffbe8a75f2f1" href="Tabiques Ama vs EST_files\cd000002.jpg" status="new" distance="-0.131">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-6.100" y="-12.125" z="3.500"/>
+            </clashpoint>
+            <gridlocation>C&apos;-1 : Nivel 3 (+3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>991096</value>
+                </objectattribute>
+                <layer>Nivel 1 (-0.06)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 1 (-0.06)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>688826</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 22</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 22</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto3" guid="78c74ca6-6251-46b3-b51f-d34b4432e211" href="Tabiques Ama vs EST_files\cd000003.jpg" status="new" distance="-0.120">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="39.951" y="-16.667" z="-0.260"/>
+            </clashpoint>
+            <gridlocation>E-10 : Nivel -1 (-3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>398593</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>701229</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto4" guid="a6606ee4-3b41-4a0b-930b-e8a6270a14b6" href="Tabiques Ama vs EST_files\cd000004.jpg" status="new" distance="-0.100">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="24.855" y="-13.142" z="3.340"/>
+            </clashpoint>
+            <gridlocation>D-7 : Nivel 2 (+3.32)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>835285</value>
+                </objectattribute>
+                <layer>Nivel 1 (-0.06)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 1 (-0.06)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>317232</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +3.54 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +3.54 AUL</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto5" guid="05a28b13-60e3-467d-9991-ff6624e99dda" href="Tabiques Ama vs EST_files\cd000005.jpg" status="new" distance="-0.100">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="31.562" y="-39.370" z="9.750"/>
+            </clashpoint>
+            <gridlocation>8&apos;-I1 : Nivel 4 OFI (+8.85)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1247950</value>
+                </objectattribute>
+                <layer>Nivel 4 OFI (+8.85)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 4 OFI (+8.85)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 100mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 100mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>797160</value>
+                </objectattribute>
+                <layer>N.O.G. (4) +8.82 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (4) +8.82 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto6" guid="665e4cff-6eb5-49ac-b042-c8e7b91013bd" href="Tabiques Ama vs EST_files\cd000006.jpg" status="new" distance="-0.097">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="24.222" y="-40.831" z="8.620"/>
+            </clashpoint>
+            <gridlocation>6&apos;&apos;-J : Nivel 3 - AUL (+7.20)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1123727</value>
+                </objectattribute>
+                <layer>Nivel 3 OFI (+5.90)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 3 OFI (+5.90)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>763485</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +5.87 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +5.87 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto7" guid="18da9102-21e4-420b-9ee4-25de00e88204" href="Tabiques Ama vs EST_files\cd000007.jpg" status="new" distance="-0.095">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="24.810" y="-13.142" z="3.340"/>
+            </clashpoint>
+            <gridlocation>D-7 : Nivel 2 (+3.32)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>835285</value>
+                </objectattribute>
+                <layer>Nivel 1 (-0.06)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 1 (-0.06)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>661649</value>
+                </objectattribute>
+                <layer>N.O.G. (1) -0.06 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (1) -0.06 AUL</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto8" guid="b49df090-a095-4b30-9cd3-6616cab9614c" href="Tabiques Ama vs EST_files\cd000008.jpg" status="new" distance="-0.093">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-6.300" y="-21.317" z="3.500"/>
+            </clashpoint>
+            <gridlocation>F&apos;-1 : Nivel 3 (+3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>991096</value>
+                </objectattribute>
+                <layer>Nivel 1 (-0.06)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 1 (-0.06)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>687915</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 22</node>
+                  <node>Muro básico</node>
+                  <node>Concrete, Cast-in-Place gray</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Concrete, Cast-in-Place gray</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto9" guid="b311ca06-9036-4006-8c25-5d69100b52b0" href="Tabiques Ama vs EST_files\cd000009.jpg" status="new" distance="-0.090">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="24.222" y="-40.969" z="11.770"/>
+            </clashpoint>
+            <gridlocation>6&apos;&apos;-J : Nivel 5 (+11.69)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1813099</value>
+                </objectattribute>
+                <layer>Nivel 4 OFI (+8.85)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 4 OFI (+8.85)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>783176</value>
+                </objectattribute>
+                <layer>N.O.G. (4) +8.82 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (4) +8.82 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto10" guid="38939998-d7d8-4c0a-86b2-5d1708fb9851" href="Tabiques Ama vs EST_files\cd000010.jpg" status="new" distance="-0.089">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="36.212" y="-46.020" z="11.860"/>
+            </clashpoint>
+            <gridlocation>K-9 : Nivel 5 (+11.86)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1177505</value>
+                </objectattribute>
+                <layer>Nivel 4 OFI (+8.85)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 4 OFI (+8.85)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>773672</value>
+                </objectattribute>
+                <layer>N.O.G. (4) +8.82 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (4) +8.82 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto11" guid="c16f92ad-debf-41ed-a7a5-2430effc06fd" href="Tabiques Ama vs EST_files\cd000011.jpg" status="new" distance="-0.060">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="29.730" y="-4.880" z="7.140"/>
+            </clashpoint>
+            <gridlocation>7b-B : Nivel 3 (+6.58)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1059243</value>
+                </objectattribute>
+                <layer>Nivel 2 AUL (+3.60)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 2 AUL (+3.60)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>Muro por defecto</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro por defecto</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>335404</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto12" guid="67293fce-21af-4382-94df-6a65da091fb7" href="Tabiques Ama vs EST_files\cd000012.jpg" status="new" distance="-0.060">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="26.435" y="-13.142" z="7.140"/>
+            </clashpoint>
+            <gridlocation>7&apos;&apos;-D : Nivel 3 (+6.58)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1059824</value>
+                </objectattribute>
+                <layer>Nivel 2 AUL (+3.60)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 2 AUL (+3.60)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>335392</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto13" guid="0a3a62be-2c6f-4344-9a82-3ea3db7a2842" href="Tabiques Ama vs EST_files\cd000013.jpg" status="new" distance="-0.060">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="26.435" y="-13.142" z="7.140"/>
+            </clashpoint>
+            <gridlocation>7&apos;&apos;-D : Nivel 3 (+6.58)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1059824</value>
+                </objectattribute>
+                <layer>Nivel 2 AUL (+3.60)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 2 AUL (+3.60)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>317232</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +3.54 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +3.54 AUL</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto14" guid="0fbe19d5-c106-407a-91cc-d988803d5504" href="Tabiques Ama vs EST_files\cd000014.jpg" status="new" distance="-0.060">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.071" y="-28.081" z="-3.560"/>
+            </clashpoint>
+            <gridlocation>G&apos;&apos;-2 : Nivel -1 (-3.56)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>396154</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>593559</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto15" guid="b2d79174-666e-4551-a116-ae911cbd6448" href="Tabiques Ama vs EST_files\cd000015.jpg" status="new" distance="-0.060">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.087" y="-28.081" z="-0.060"/>
+            </clashpoint>
+            <gridlocation>G&apos;&apos;-2 : Nivel -1 (-3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>396154</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>294362</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto16" guid="682a5f15-6f82-48f3-b275-92749ebe4be5" href="Tabiques Ama vs EST_files\cd000016.jpg" status="new" distance="-0.060">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.095" y="-27.673" z="-0.00000152"/>
+            </clashpoint>
+            <gridlocation>G&apos;&apos;-2 : Nivel 1 (-0.06)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>864632</value>
+                </objectattribute>
+                <layer>Nivel 1 (-0.06)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 1 (-0.06)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>294362</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto17" guid="6d1eab92-1dfe-4a8e-a6cd-c895b841d25a" href="Tabiques Ama vs EST_files\cd000017.jpg" status="new" distance="-0.060">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.093" y="-20.075" z="-0.00000152"/>
+            </clashpoint>
+            <gridlocation>F-2 : Nivel 1 (-0.06)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1338694</value>
+                </objectattribute>
+                <layer>Nivel 1 (-0.06)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 1 (-0.06)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>294362</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto18" guid="025393e9-c38c-49d3-866a-99e6138c648f" href="Tabiques Ama vs EST_files\cd000018.jpg" status="new" distance="-0.060">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.007" y="-23.262" z="-0.00000152"/>
+            </clashpoint>
+            <gridlocation>F&apos;-2 : Nivel 1 (-0.06)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1338976</value>
+                </objectattribute>
+                <layer>Nivel 1 (-0.06)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 1 (-0.06)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>294362</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto19" guid="88c2a17a-d12f-4d82-bbc5-224d48aef36e" href="Tabiques Ama vs EST_files\cd000019.jpg" status="new" distance="-0.050">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="24.222" y="-40.970" z="5.140"/>
+            </clashpoint>
+            <gridlocation>6&apos;&apos;-J : Nivel 3 (+4.62)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1065984</value>
+                </objectattribute>
+                <layer>Nivel 2 OFI (+2.95)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 2 OFI (+2.95)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>744646</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +2.92 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +2.92 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto20" guid="4e9ea5be-72f3-4877-88c3-093a33cffe30" href="Tabiques Ama vs EST_files\cd000020.jpg" status="new" distance="-0.050">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="41.151" y="-36.020" z="-3.560"/>
+            </clashpoint>
+            <gridlocation>I-10 : Nivel -1 (-3.56)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>403437</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>466234</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto21" guid="f752d30a-8fcf-4039-8aed-b5681ba1f163" href="Tabiques Ama vs EST_files\cd000021.jpg" status="new" distance="-0.050">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="15.005" y="-26.435" z="6.580"/>
+            </clashpoint>
+            <gridlocation>4&apos;-G : Nivel 3 (+6.58)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1062032</value>
+                </objectattribute>
+                <layer>Nivel 2 (+3.32)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 2 (+3.32)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>741568</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +3.32 CAS</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +3.32 CAS</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto22" guid="b082c376-b84d-44fd-9dfd-24492ba81a05" href="Tabiques Ama vs EST_files\cd000022.jpg" status="new" distance="-0.050">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="15.200" y="-26.435" z="6.580"/>
+            </clashpoint>
+            <gridlocation>4&apos;-G : Nivel 3 (+6.58)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1062032</value>
+                </objectattribute>
+                <layer>Nivel 2 (+3.32)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 2 (+3.32)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>741517</value>
+                </objectattribute>
+                <layer>Nivel (2) +3.19</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>Nivel (2) +3.19</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto23" guid="e01fbaa9-341a-45aa-9721-e06fd6914e16" href="Tabiques Ama vs EST_files\cd000023.jpg" status="new" distance="-0.043">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="41.160" y="-49.148" z="-3.534"/>
+            </clashpoint>
+            <gridlocation>L-10 : Nivel -1 (-3.56)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>403070</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Pintura muro esmalte al agua</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Pintura muro esmalte al agua</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>207158</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto24" guid="f99e6cca-7787-4b55-a9d3-32529efdb768" href="Tabiques Ama vs EST_files\cd000024.jpg" status="new" distance="-0.041">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="41.160" y="-49.146" z="-3.560"/>
+            </clashpoint>
+            <gridlocation>L-10 : Nivel -1 (-3.56)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>403070</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>430458</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto25" guid="b36338ce-4686-47f0-b47d-8fe9213af749" href="Tabiques Ama vs EST_files\cd000025.jpg" status="new" distance="-0.041">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="21.663" y="-29.524" z="-3.560"/>
+            </clashpoint>
+            <gridlocation>6&apos;-G&apos;&apos; : Nivel -1 (-3.56)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>538096</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Puerta - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Puerta - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>210425</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto26" guid="d9e5e6fa-6af5-443d-b1ac-c71e965727cd" href="Tabiques Ama vs EST_files\cd000026.jpg" status="new" distance="-0.033">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="28.528" y="-14.892" z="-0.260"/>
+            </clashpoint>
+            <gridlocation>D&apos;-7a : Nivel -1 (-3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>404949</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>269507</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto30" guid="445345ff-356f-49d2-8652-edd5c9d25268" href="Tabiques Ama vs EST_files\cd000027.jpg" status="new" distance="-0.030">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="24.222" y="-40.778" z="8.820"/>
+            </clashpoint>
+            <gridlocation>6&apos;&apos;-J : Nivel 3 - AUL (+7.20)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1123727</value>
+                </objectattribute>
+                <layer>Nivel 3 OFI (+5.90)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 3 OFI (+5.90)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>783176</value>
+                </objectattribute>
+                <layer>N.O.G. (4) +8.82 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (4) +8.82 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto27" guid="5de0857f-5db7-4a73-9aa8-a4bc541ef09d" href="Tabiques Ama vs EST_files\cd000028.jpg" status="new" distance="-0.030">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="41.202" y="-38.130" z="5.870"/>
+            </clashpoint>
+            <gridlocation>I&apos;&apos;-10 : Nivel 3 (+5.76)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1055731</value>
+                </objectattribute>
+                <layer>Nivel 2 OFI (+2.95)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 2 OFI (+2.95)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>759437</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +2.92 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +2.92 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto28" guid="014cd49f-462c-42a1-bcdb-eef69e273e1f" href="Tabiques Ama vs EST_files\cd000029.jpg" status="new" distance="-0.030">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="41.202" y="-36.042" z="5.870"/>
+            </clashpoint>
+            <gridlocation>I-10 : Nivel 3 (+5.76)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1055731</value>
+                </objectattribute>
+                <layer>Nivel 2 OFI (+2.95)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 2 OFI (+2.95)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>768894</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +5.87 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +5.87 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto29" guid="9c1ab9ca-a1ef-4aa5-a253-6f132d199652" href="Tabiques Ama vs EST_files\cd000030.jpg" status="new" distance="-0.030">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="24.222" y="-40.778" z="5.870"/>
+            </clashpoint>
+            <gridlocation>6&apos;&apos;-J : Nivel 3 (+5.76)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1065984</value>
+                </objectattribute>
+                <layer>Nivel 2 OFI (+2.95)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 2 OFI (+2.95)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>763485</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +5.87 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +5.87 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto31" guid="3fa7d07f-2aa4-4c7b-ae89-70e8097529cb" href="Tabiques Ama vs EST_files\cd000031.jpg" status="new" distance="-0.030">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="36.014" y="-39.170" z="2.920"/>
+            </clashpoint>
+            <gridlocation>8a-I1 : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>829908</value>
+                </objectattribute>
+                <layer>Nivel 1 OFI (+0.17)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 1 OFI (+0.17)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>759151</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +2.92 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +2.92 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto32" guid="941ff3e5-b12e-4a3e-a31a-69ded93597f1" href="Tabiques Ama vs EST_files\cd000032.jpg" status="new" distance="-0.030">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="38.871" y="-35.820" z="2.920"/>
+            </clashpoint>
+            <gridlocation>I-10 : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1823602</value>
+                </objectattribute>
+                <layer>Nivel 1 OFI (+0.17)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 1 OFI (+0.17)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>759265</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +2.92 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +2.92 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto33" guid="0ad8c578-763d-4486-b321-c43952e465bc" href="Tabiques Ama vs EST_files\cd000033.jpg" status="new" distance="-0.030">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="31.364" y="-38.270" z="2.920"/>
+            </clashpoint>
+            <gridlocation>I1-8 : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>830042</value>
+                </objectattribute>
+                <layer>Nivel 1 OFI (+0.17)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 1 OFI (+0.17)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>758913</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +2.92 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +2.92 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto34" guid="52a6f4c2-9958-4e22-bd0b-3c757728cc48" href="Tabiques Ama vs EST_files\cd000034.jpg" status="new" distance="-0.020">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="29.745" y="-4.900" z="3.600"/>
+            </clashpoint>
+            <gridlocation>7b-B : Nivel 2 AUL (+3.60)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1059243</value>
+                </objectattribute>
+                <layer>Nivel 2 AUL (+3.60)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 2 AUL (+3.60)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318323</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +3.54 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +3.54 AUL</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto35" guid="8d7076d5-a9cd-497e-bd6f-f4f24d78f1cf" href="Tabiques Ama vs EST_files\cd000035.jpg" status="new" distance="-0.010">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-6.100" y="-23.883" z="0.898"/>
+            </clashpoint>
+            <gridlocation>F&apos;&apos;-1 : Nivel 10</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>849439</value>
+                </objectattribute>
+                <layer>Nivel 1 (-0.06)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 1 (-0.06)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>687915</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 22</node>
+                  <node>Muro básico</node>
+                  <node>Acero, 45-345</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Acero, 45-345</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto36" guid="27b2cc5e-a64e-4ea1-bba4-e8be0ca2f1a6" href="Tabiques Ama vs EST_files\cd000036.jpg" status="new" distance="-0.010">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="17.185" y="-29.210" z="-3.560"/>
+            </clashpoint>
+            <gridlocation>5&apos;-G&apos;&apos; : Nivel -1 (-3.56)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>400698</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>428080</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto37" guid="4285ede2-7a0d-4664-9a5b-580f0da49ea4" href="Tabiques Ama vs EST_files\cd000037.jpg" status="new" distance="-0.010">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="15.676" y="-29.410" z="-0.260"/>
+            </clashpoint>
+            <gridlocation>4&apos;-G&apos;&apos; : Nivel -1 (-3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>400842</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Pintura muro esmalte al agua</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Pintura muro esmalte al agua</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>267188</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto38" guid="01998c7d-deae-48ef-8733-4c66759905cf" href="Tabiques Ama vs EST_files\cd000038.jpg" status="new" distance="-0.008">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="36.143" y="-22.287" z="-0.260"/>
+            </clashpoint>
+            <gridlocation>F&apos;-8a : Nivel -1 (-3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>724214</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Pintura muro esmalte al agua</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Pintura muro esmalte al agua</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>798274</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto39" guid="009fe64b-2bf6-49aa-825a-f6bfcf39a3bf" href="Tabiques Ama vs EST_files\cd000039.jpg" status="new" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="33.101" y="-25.546" z="-0.260"/>
+            </clashpoint>
+            <gridlocation>8&apos;-G : Nivel -1 (-3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>722792</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Pintura muro esmalte al agua</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Pintura muro esmalte al agua</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>797672</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto40" guid="524dea44-e654-4db3-87cd-31a64fb79b09" href="Tabiques Ama vs EST_files\cd000040.jpg" status="new" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="8.660" y="-13.093" z="11.632"/>
+            </clashpoint>
+            <gridlocation>D-3 : Nivel 4 - AUL (+10.80)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1224421</value>
+                </objectattribute>
+                <layer>Nivel 4 - AUL (+10.80)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 4 - AUL (+10.80)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>346739</value>
+                </objectattribute>
+                <layer>N.O.G. (4) +10.80 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (4) +10.80 AUL</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto41" guid="05eac74e-368b-4271-bc9a-71f7db3a093e" href="Tabiques Ama vs EST_files\cd000041.jpg" status="new" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="26.471" y="-13.142" z="7.206"/>
+            </clashpoint>
+            <gridlocation>7&apos;&apos;-D : Nivel 3 - AUL (+7.20)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1132981</value>
+                </objectattribute>
+                <layer>Nivel 3 - AUL (+7.20)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 3 - AUL (+7.20)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>335392</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 30</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 30</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto42" guid="9d554600-4de1-4340-8bb1-f7494077f51e" href="Tabiques Ama vs EST_files\cd000042.jpg" status="new" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="20.780" y="-29.211" z="-3.560"/>
+            </clashpoint>
+            <gridlocation>5&apos;&apos;-G&apos;&apos; : Nivel -1 (-3.56)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>410905</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>210399</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto43" guid="079062bf-ae0b-4d0b-9d14-1752de876f74" href="Tabiques Ama vs EST_files\cd000043.jpg" status="new" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="21.811" y="-40.970" z="-1.760"/>
+            </clashpoint>
+            <gridlocation>6&apos;-J : Nivel -1 (-3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1853324</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>277136</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto44" guid="170158b7-956c-4b40-ae07-92d07bb6f98a" href="Tabiques Ama vs EST_files\cd000044.jpg" status="new" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="24.274" y="-42.824" z="0.110"/>
+            </clashpoint>
+            <gridlocation>J&apos;-6&apos;&apos; : Nivel 1 (+0.00)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1818357</value>
+                </objectattribute>
+                <layer>Nivel 1 (-0.06)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 1 (-0.06)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>663624</value>
+                </objectattribute>
+                <layer>N.O.G. (1) +0.11 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (1) +0.11 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto45" guid="f44c9829-e8a1-405c-b14a-ff1e1b3d207e" href="Tabiques Ama vs EST_files\cd000045.jpg" status="new" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="17.462" y="-46.331" z="-1.699"/>
+            </clashpoint>
+            <gridlocation>5&apos;-K : Nivel -1 (-3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>411013</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Pintura muro esmalte al agua</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Pintura muro esmalte al agua</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>840800</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto46" guid="b93224af-66ff-4614-a6c5-1358fb129baa" href="Tabiques Ama vs EST_files\cd000046.jpg" status="new" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="28.274" y="-29.210" z="-3.560"/>
+            </clashpoint>
+            <gridlocation>7a-G&apos;&apos; : Nivel -1 (-3.56)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>400593</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>210310</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto47" guid="c0ac0195-f7fa-4716-8b6a-18c4cc772078" href="Tabiques Ama vs EST_files\cd000047.jpg" status="new" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="28.274" y="-29.210" z="-3.560"/>
+            </clashpoint>
+            <gridlocation>7a-G&apos;&apos; : Nivel -1 (-3.56)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>400593</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>286906</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 25</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 25</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto48" guid="adf8a14d-1c81-4ede-b4ae-9e43619c5851" href="Tabiques Ama vs EST_files\cd000048.jpg" status="new" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.100" y="-20.072" z="1.720"/>
+            </clashpoint>
+            <gridlocation>F-2 : Nivel 2 (+1.62)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1338694</value>
+                </objectattribute>
+                <layer>Nivel 1 (-0.06)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 1 (-0.06)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>292454</value>
+                </objectattribute>
+                <layer>N.O.G. (1) -0.06 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (1) -0.06 AUL</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto49" guid="8a34c436-196b-414a-95b3-109a6d742674" href="Tabiques Ama vs EST_files\cd000049.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="31.562" y="-38.270" z="-3.560"/>
+            </clashpoint>
+            <gridlocation>8&apos;-I1 : Nivel -1 (-3.56)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>403867</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>277760</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto50" guid="b0499f49-7b85-4532-a245-36d8375159d5" href="Tabiques Ama vs EST_files\cd000050.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="21.811" y="-38.020" z="10.600"/>
+            </clashpoint>
+            <gridlocation>6&apos;-I&apos;&apos; : Nivel 4 OFI (+8.85)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1176672</value>
+                </objectattribute>
+                <layer>Nivel 4 OFI (+8.85)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 4 OFI (+8.85)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>782873</value>
+                </objectattribute>
+                <layer>N.O.G. (4) +8.82 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (4) +8.82 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto51" guid="2aadbcd2-a98c-4935-87ec-331cef5e223e" href="Tabiques Ama vs EST_files\cd000051.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.100" y="-13.092" z="-3.560"/>
+            </clashpoint>
+            <gridlocation>D-2 : Nivel -1 (-3.56)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>396154</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>714429</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 22</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 22</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto52" guid="4bc6b462-724b-4a3c-936e-0ceecbd0ede2" href="Tabiques Ama vs EST_files\cd000052.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="30.601" y="-14.892" z="3.600"/>
+            </clashpoint>
+            <gridlocation>D&apos;-8 : Nivel 2 AUL (+3.60)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>836897</value>
+                </objectattribute>
+                <layer>Nivel 1 (-0.06)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 1 (-0.06)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318509</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +3.54 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +3.54 AUL</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto54" guid="e2014e02-5977-4470-b58b-ccbaf0ccf099" href="Tabiques Ama vs EST_files\cd000053.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="30.601" y="-14.892" z="7.200"/>
+            </clashpoint>
+            <gridlocation>D&apos;-8 : Nivel 3 - AUL (+7.20)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1059694</value>
+                </objectattribute>
+                <layer>Nivel 2 AUL (+3.60)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 2 AUL (+3.60)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>335406</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto53" guid="751a1c4e-9b69-4b6e-9f00-e92ed8273908" href="Tabiques Ama vs EST_files\cd000054.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="30.601" y="-14.892" z="3.600"/>
+            </clashpoint>
+            <gridlocation>D&apos;-8 : Nivel 2 AUL (+3.60)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1059694</value>
+                </objectattribute>
+                <layer>Nivel 2 AUL (+3.60)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 2 AUL (+3.60)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>318509</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +3.54 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +3.54 AUL</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto55" guid="81bba8a1-79f4-411d-ba05-65f04c1e47f7" href="Tabiques Ama vs EST_files\cd000055.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="37.001" y="-24.698" z="-0.260"/>
+            </clashpoint>
+            <gridlocation>G-9 : Nivel -1 (-3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>723650</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Pintura muro esmalte al agua</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Pintura muro esmalte al agua</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>798028</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto57" guid="5292f768-27e5-4442-9858-f908db41b53d" href="Tabiques Ama vs EST_files\cd000056.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="31.410" y="-36.318" z="-0.260"/>
+            </clashpoint>
+            <gridlocation>8&apos;-I : Nivel -1 (-3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>404383</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>225108</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto56" guid="3553aa18-da4a-4bbc-ba80-84978847b175" href="Tabiques Ama vs EST_files\cd000057.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="31.281" y="-28.410" z="-3.560"/>
+            </clashpoint>
+            <gridlocation>G&apos;&apos;-8 : Nivel -1 (-3.56)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>400407</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>210297</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto58" guid="57d66a42-4d98-4093-93a5-46c3dad367f7" href="Tabiques Ama vs EST_files\cd000058.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="24.410" y="-46.293" z="-0.260"/>
+            </clashpoint>
+            <gridlocation>6&apos;&apos;-K : Nivel -1 (-3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>402642</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>289645</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto59" guid="a3594d7d-89e2-4111-87ce-01703f5515a0" href="Tabiques Ama vs EST_files\cd000059.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="36.012" y="-38.270" z="-3.560"/>
+            </clashpoint>
+            <gridlocation>8a-I1 : Nivel -1 (-3.56)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>404077</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>580156</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto60" guid="6749d55b-34b4-4ad8-9e25-238042cb4c11" href="Tabiques Ama vs EST_files\cd000060.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="32.901" y="-20.822" z="-1.460"/>
+            </clashpoint>
+            <gridlocation>8&apos;-F : Nivel -1 (-3.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1712413</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Puerta - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Puerta - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>797672</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto61" guid="0bb85d51-2c94-4268-8496-809294d5891d" href="Tabiques Ama vs EST_files\cd000061.jpg" status="new" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.100" y="-23.261" z="1.720"/>
+            </clashpoint>
+            <gridlocation>F&apos;-2 : Nivel 2 (+1.62)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1338976</value>
+                </objectattribute>
+                <layer>Nivel 1 (-0.06)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 1 (-0.06)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>666018</value>
+                </objectattribute>
+                <layer>N.O.G. (1) -0.06 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (1) -0.06 AUL</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto62" guid="c1563fa9-5a56-4aae-a03a-1c4933cdac55" href="Tabiques Ama vs EST_files\cd000062.jpg" status="new" distance="-0.001">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="8.851" y="-22.375" z="3.320"/>
+            </clashpoint>
+            <gridlocation>F&apos;-3&apos; : Nivel 2 OFI (+2.95)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1086792</value>
+                </objectattribute>
+                <layer>Nivel 2 (+3.32)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 2 (+3.32)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>741406</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +3.32 CAS</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +3.32 CAS</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto63" guid="44ebd052-abc2-481a-8cfa-c127eab6521d" href="Tabiques Ama vs EST_files\cd000063.jpg" status="new" distance="-0.001">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="40.122" y="-35.820" z="-3.560"/>
+            </clashpoint>
+            <gridlocation>I-10 : Nivel -1 (-3.56)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>403437</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                  <node>0. Material no definido</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>0. Material no definido</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>209349</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto64" guid="49fb6721-9956-4d44-bf5c-6bf6458da327" href="Tabiques Ama vs EST_files\cd000064.jpg" status="new" distance="-0.001">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="31.562" y="-37.822" z="8.850"/>
+            </clashpoint>
+            <gridlocation>8&apos;-I&apos;&apos; : Nivel 3 - AUL (+7.20)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1129545</value>
+                </objectattribute>
+                <layer>Nivel 3 OFI (+5.90)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 3 OFI (+5.90)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>797160</value>
+                </objectattribute>
+                <layer>N.O.G. (4) +8.82 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (4) +8.82 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto65" guid="44483a37-0619-4924-9cfa-86ba7f04fac8" href="Tabiques Ama vs EST_files\cd000065.jpg" status="new" distance="-0.001">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="39.092" y="-36.020" z="8.850"/>
+            </clashpoint>
+            <gridlocation>I-10 : Nivel 3 - AUL (+7.20)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="18" hour="0" minute="53" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1854011</value>
+                </objectattribute>
+                <layer>Nivel 4 OFI (+8.85)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG - 16.02.21.rvt</node>
+                  <node>Nivel 4 OFI (+8.85)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Ventana - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Ventana - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>826287</value>
+                </objectattribute>
+                <layer>N.O.G. (4) +8.82 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (4) +8.82 ADM</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>

@@ -1,0 +1,3846 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="m" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="m">
+    <clashtests>
+      <clashtest name="FNT - FNT" test_type="hard" status="ok" tolerance="0.001" merge_composites="1">
+        <linkage mode="none"/>
+        <rules/>
+        <summary total="129" new="0" active="0" reviewed="0" approved="53" resolved="76">
+          <testtype>Estático</testtype>
+          <teststatus>Aceptar</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Conflicto6" guid="dbb844e0-4ae1-46c9-8c5f-aa68fb7496e1" href="FNT - FNT_files\cd120001.jpg" status="approved" distance="-0.011">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.818" y="2.072" z="-0.271"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="5" minute="4" second="5"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="5" minute="5" second="36"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>441793</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>526855</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto7" guid="42bef351-683f-4688-8e1a-124b753ca564" href="FNT - FNT_files\cd120002.jpg" status="approved" distance="-0.010">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.834" y="2.063" z="-0.274"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="5" minute="4" second="5"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="5" minute="5" second="36"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>441793</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>526861</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto10" guid="cf5a7c6e-66a6-40a3-aaf4-119174d7c03c" href="FNT - FNT_files\cd120003.jpg" status="approved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.345" y="2.430" z="-0.309"/>
+            </clashpoint>
+            <gridlocation>A.1.1-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="5" minute="4" second="5"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="5" minute="5" second="36"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>527186</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>513510</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto19" guid="dc40612e-0dd5-48dc-a6f5-814d2b987f01" href="FNT - FNT_files\cd120004.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.726" y="2.173" z="-0.352"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="5" minute="4" second="5"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="5" minute="5" second="36"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>513910</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>526855</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto23" guid="60763abd-58d9-41ac-b5df-93170519dcfb" href="FNT - FNT_files\cd120005.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.340" y="2.582" z="-0.196"/>
+            </clashpoint>
+            <gridlocation>A.1.1-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="5" minute="4" second="5"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="5" minute="5" second="36"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>420309</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>513510</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto32" guid="7e5d22f6-cb9c-440c-aadc-896397c5571d" href="FNT - FNT_files\cd120006.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.756" y="2.013" z="-0.322"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="5" minute="4" second="5"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="5" minute="5" second="36"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>526861</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>526855</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto37" guid="cac2f5d5-f1f4-4d83-adcd-4c8a0bdd7343" href="FNT - FNT_files\cd120007.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-3.153" y="1.749" z="-0.285"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="5" minute="4" second="5"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="5" minute="5" second="36"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>551885</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>551890</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto43" guid="b4c58fa0-fc88-42af-9c09-69b8d61bcfaa" href="FNT - FNT_files\cd120008.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.971" y="0.955" z="0.822"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="5" minute="4" second="5"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="5" minute="5" second="36"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>423242</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512514</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto46" guid="166a4f80-04cc-41c8-b372-5c747d9788b9" href="FNT - FNT_files\cd120009.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.883" y="2.043" z="-0.317"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="5" minute="4" second="5"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="5" minute="5" second="36"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>526856</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>526861</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto53" guid="5b47d753-77de-4b05-9f66-b7d68ba60f9a" href="FNT - FNT_files\cd120010.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.585" y="2.209" z="-0.345"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="5" minute="4" second="5"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="17" hour="5" minute="5" second="36"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>513910</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>551928</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto71" guid="998a56b3-990a-48ed-b869-c196cd28eb97" href="FNT - FNT_files\cd120011.jpg" status="approved" distance="-0.009">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.976" y="1.067" z="2.541"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="8"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>555973</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>554249</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto76" guid="3f5fdd60-a9bc-48d7-941d-261aff2ce279" href="FNT - FNT_files\cd120012.jpg" status="approved" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.588" y="0.950" z="2.547"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="8"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536969</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511597</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto80" guid="e9d1b05f-9bb8-49b9-963f-3340450b7877" href="FNT - FNT_files\cd120013.jpg" status="approved" distance="-0.007">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.236" y="1.062" z="2.546"/>
+            </clashpoint>
+            <gridlocation>B-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>555757</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>555149</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto81" guid="bc96ae05-5027-4a54-a37e-3b466613df49" href="FNT - FNT_files\cd120014.jpg" status="approved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.622" y="0.941" z="2.514"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>408912</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536964</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto82" guid="2f3178f4-6f50-4091-8c28-a4f213f852d5" href="FNT - FNT_files\cd120015.jpg" status="approved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.622" y="0.953" z="2.536"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>408912</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511597</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto83" guid="f3508c72-90bf-4053-98b6-de58e0e60a7f" href="FNT - FNT_files\cd120016.jpg" status="approved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.949" y="0.963" z="2.374"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>423242</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512489</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto84" guid="f2e5bb31-80ce-4b55-9681-5e13026d2c5d" href="FNT - FNT_files\cd120017.jpg" status="approved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-3.047" y="0.843" z="-0.215"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>422548</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>422607</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto85" guid="ebc30eca-bb8c-4034-a852-133ac4cd02dc" href="FNT - FNT_files\cd120018.jpg" status="approved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.965" y="0.868" z="-0.099"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>422607</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512518</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto86" guid="79537cef-d0a1-45b2-a9a4-6752c524a352" href="FNT - FNT_files\cd120019.jpg" status="approved" distance="-0.006">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.929" y="0.967" z="0.552"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512513</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512518</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto87" guid="a963d8e3-3a87-4003-9bfe-f7cd9855894f" href="FNT - FNT_files\cd120020.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.748" y="0.961" z="2.498"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>408896</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511597</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto88" guid="9bdb0435-c63f-4858-b260-a6a34f91a945" href="FNT - FNT_files\cd120021.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.928" y="1.971" z="-0.360"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>526856</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>551884</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Juncao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Juncao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto89" guid="d2c210d3-b256-43e8-8189-8bf17ec3b875" href="FNT - FNT_files\cd120022.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.837" y="0.993" z="2.455"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511635</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511619</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto90" guid="ee37afc9-b931-40d9-a9ba-998d83913f00" href="FNT - FNT_files\cd120023.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.334" y="0.993" z="2.555"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511619</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536963</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto91" guid="7b76da52-c466-4c0c-a19f-9263c8178bcb" href="FNT - FNT_files\cd120024.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.463" y="2.436" z="-0.340"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>527186</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>527185</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Juncao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Juncao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto93" guid="b01c60e5-2e7e-4aaf-a6aa-2c0a5d393b75" href="FNT - FNT_files\cd120025.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.694" y="0.984" z="2.456"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511597</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>408904</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto94" guid="da240662-8202-4372-8f93-c6a0fe50cc8a" href="FNT - FNT_files\cd120026.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.608" y="0.943" z="2.541"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536964</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511597</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto95" guid="a2f458a0-1a11-4044-8f4f-a6129ed2d901" href="FNT - FNT_files\cd120027.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.665" y="0.915" z="2.457"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>408904</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>408912</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto96" guid="b9fa1e64-6413-46bd-a098-8b5e36e9f2ab" href="FNT - FNT_files\cd120028.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.784" y="0.876" z="2.457"/>
+            </clashpoint>
+            <gridlocation>A-3 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>408896</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>408912</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto97" guid="110a84d1-e223-44ad-be59-c77961aebfef" href="FNT - FNT_files\cd120029.jpg" status="approved" distance="-0.005">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.835" y="0.954" z="2.535"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512489</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>408896</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto98" guid="387e1bfe-c68b-4333-acaf-05427c3396d1" href="FNT - FNT_files\cd120030.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.719" y="0.945" z="2.602"/>
+            </clashpoint>
+            <gridlocation>A.2-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>533771</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511862</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto100" guid="a4e4ac13-80d6-4ae6-a0d9-aecf5ae3dfe9" href="FNT - FNT_files\cd120031.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.111" y="0.943" z="2.511"/>
+            </clashpoint>
+            <gridlocation>B-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511661</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512400</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto101" guid="17cf37cf-3a07-42a1-bd76-41a0eff8a864" href="FNT - FNT_files\cd120032.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-0.794" y="0.944" z="2.522"/>
+            </clashpoint>
+            <gridlocation>B-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511661</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>533771</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto102" guid="4fa1a401-df06-4b50-9db0-8d5c03090eec" href="FNT - FNT_files\cd120033.jpg" status="approved" distance="-0.004">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.488" y="1.050" z="2.504"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536969</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>556134</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto103" guid="52fd5095-5a48-49d7-a8ed-fb1669e5e47e" href="FNT - FNT_files\cd120034.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.566" y="0.494" z="-0.252"/>
+            </clashpoint>
+            <gridlocation>A-3.1 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>446908</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>446953</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto104" guid="b6a8dc72-07ea-463d-b4b2-7e80639f0435" href="FNT - FNT_files\cd120035.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.467" y="0.926" z="2.490"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536969</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536963</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto105" guid="e725cca3-a125-45b4-bc6d-ae7d9a7eef3b" href="FNT - FNT_files\cd120036.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.704" y="0.926" z="2.519"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511635</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511636</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto106" guid="cee03c03-2cd8-49db-b288-2b4472829a18" href="FNT - FNT_files\cd120037.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.989" y="0.923" z="0.685"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 1</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512513</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512514</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto108" guid="c4510a7c-103a-4ba9-b9ab-c5e779594b18" href="FNT - FNT_files\cd120038.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.548" y="1.023" z="2.542"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512183</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Bucha de Reducao Longa - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Bucha de Reducao Longa - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512190</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto109" guid="f1f45aaa-542f-4b06-bbe8-1a81406eddec" href="FNT - FNT_files\cd120039.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.566" y="1.840" z="-0.302"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>514780</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>526867</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto110" guid="11ba770f-218c-44ed-af9c-bc5a8ef2db76" href="FNT - FNT_files\cd120040.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-3.035" y="1.814" z="-0.268"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>551884</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Juncao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Juncao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>551890</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto111" guid="f7e29190-18dc-40fa-9c5f-2abfd1bdc008" href="FNT - FNT_files\cd120041.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.565" y="2.272" z="-0.356"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>527185</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Juncao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Juncao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>551928</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto112" guid="f3575984-26d6-460c-9edb-02c39c1f781c" href="FNT - FNT_files\cd120042.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.218" y="1.016" z="2.507"/>
+            </clashpoint>
+            <gridlocation>B-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512406</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512400</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto113" guid="a85a70f7-a2d5-42c9-9255-43e2e2a9503c" href="FNT - FNT_files\cd120043.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.527" y="0.486" z="-0.206"/>
+            </clashpoint>
+            <gridlocation>A-3.1 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>446817</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>446953</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto114" guid="933a5b93-ec79-49b8-93e5-db7c7b55bb91" href="FNT - FNT_files\cd120044.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-3.011" y="1.910" z="-0.338"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>520570</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>551884</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Juncao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Juncao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto115" guid="2f3d6ae7-d4f3-41c3-807c-1589cdcc7b9b" href="FNT - FNT_files\cd120045.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.545" y="2.376" z="-0.316"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>513901</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>527185</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Juncao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Juncao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto117" guid="efb4f4e5-31b9-424a-9140-10280dfbb437" href="FNT - FNT_files\cd120046.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.580" y="3.185" z="-0.232"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>527234</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>527228</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto118" guid="b6fc1dea-c703-4565-9fc9-5d1183fc7632" href="FNT - FNT_files\cd120047.jpg" status="approved" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.544" y="3.156" z="-0.290"/>
+            </clashpoint>
+            <gridlocation>A-1.a : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>527234</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>513901</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto119" guid="a9a4c9e5-ed0c-47e5-9886-077e6556fe1a" href="FNT - FNT_files\cd120048.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.505" y="1.846" z="-0.257"/>
+            </clashpoint>
+            <gridlocation>A-2 : Nivel Terreno</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>526867</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Uniones de tubería</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Joelho 90 com Anel - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>526686</value>
+                </objectattribute>
+                <layer>Nivel 1</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 1</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto120" guid="3b5b7f10-b44f-46cc-99c1-360abdd6b9de" href="FNT - FNT_files\cd120049.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.684" y="0.941" z="2.471"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512190</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511635</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Te de Inspecao - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto122" guid="48d3c6fd-35ed-46e5-9bc5-bc1d60b966bf" href="FNT - FNT_files\cd120050.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.568" y="0.937" z="2.542"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512183</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Bucha de Reducao Longa - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Bucha de Reducao Longa - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>511636</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto124" guid="30695299-9563-49fe-a89d-d39045f2bf18" href="FNT - FNT_files\cd120051.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-2.535" y="0.971" z="2.449"/>
+            </clashpoint>
+            <gridlocation>A-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536969</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>536964</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto126" guid="d1d63cc7-dcf5-4c52-b6da-e7b2b9c85526" href="FNT - FNT_files\cd120052.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.482" y="1.007" z="2.539"/>
+            </clashpoint>
+            <gridlocation>A.1.1-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512183</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Bucha de Reducao Longa - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Bucha de Reducao Longa - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512401</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto127" guid="069fe3de-2e1b-429e-88d0-c650f961ca2c" href="FNT - FNT_files\cd120053.jpg" status="approved" distance="-0.002">
+            <description>Estático</description>
+            <resultstatus>Aprobado</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.248" y="0.960" z="2.484"/>
+            </clashpoint>
+            <gridlocation>B-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="18" hour="8" minute="3" second="37"/>
+            </createddate>
+            <approveddate>
+              <date year="2020" month="8" day="18" hour="8" minute="8" second="9"/>
+            </approveddate>
+            <approvedby>Isaac Lemus</approvedby>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512406</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                  <node>Luva Simples para Conexão - Serie Normal - Esgoto - MEP - Tigre</node>
+                  <node>Standard</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Standard</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>512401</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PVC - SANITARIO</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PVC - SANITARIO</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>

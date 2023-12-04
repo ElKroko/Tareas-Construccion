@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="m" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="m">
+    <clashtests>
+      <clashtest name="3.- ARQ_TAB_PUE VS EST" test_type="hard" status="ok" tolerance="0.001" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Tabiques Puertas</locator>
+          </clashselection>
+        </left>
+        <rules/>
+        <summary total="11" new="0" active="11" reviewed="0" approved="0" resolved="0">
+          <testtype>Estático</testtype>
+          <teststatus>Aceptar</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Conflicto1" guid="618020b5-85a7-49f6-a883-d1d191023ffe" href="3.- ARQ_TAB_PUE VS EST_files\cd020001.jpg" status="active" distance="-0.500">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="34.623" y="-13.054" z="2.840"/>
+            </clashpoint>
+            <gridlocation>8a-D : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="18" second="23"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>855284</value>
+                </objectattribute>
+                <layer>Nivel 1 (-0.06)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 1 (-0.06)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Puerta - 130</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Puerta - 130</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>651290</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +3.54 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +3.54 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 204  25/70</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 204  25/70</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto2" guid="09d184f3-c79f-4843-a3a6-3ed1ac0228e8" href="3.- ARQ_TAB_PUE VS EST_files\cd020002.jpg" status="active" distance="-0.080">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="37.317" y="-40.855" z="8.350"/>
+            </clashpoint>
+            <gridlocation>J-9 : Nivel 3 - AUL (+7.20)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="18" second="23"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1149504</value>
+                </objectattribute>
+                <layer>Nivel 3 OFI (+5.90)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 3 OFI (+5.90)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Puerta - 120</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Puerta - 120</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>334181</value>
+                </objectattribute>
+                <layer>N.O.G. (4) +8.82 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (4) +8.82 ADM</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 413 20/47</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 413 20/47</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto3" guid="db9775ea-2245-4307-bb7d-c44eed18bff9" href="3.- ARQ_TAB_PUE VS EST_files\cd020003.jpg" status="active" distance="-0.080">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="37.318" y="-40.834" z="5.400"/>
+            </clashpoint>
+            <gridlocation>J-9 : Nivel 3 (+4.62)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="18" second="23"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1094878</value>
+                </objectattribute>
+                <layer>Nivel 2 OFI (+2.95)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 OFI (+2.95)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Puerta - 120</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Puerta - 120</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>330628</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +5.87 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +5.87 ADM</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 310 20/47</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 310 20/47</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto4" guid="66222459-dae9-4b85-8353-f66a2b5509d3" href="3.- ARQ_TAB_PUE VS EST_files\cd020004.jpg" status="active" distance="-0.080">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="37.317" y="-40.853" z="11.500"/>
+            </clashpoint>
+            <gridlocation>J-9 : Nivel 4 - AUL (+10.80)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="18" second="23"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1216366</value>
+                </objectattribute>
+                <layer>Nivel 4 OFI (+8.85)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 4 OFI (+8.85)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Puerta - 120</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Puerta - 120</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>843687</value>
+                </objectattribute>
+                <layer>N.O.G. (5) +11.97 ADM</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (5) +11.97 ADM</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 513 20/47</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 513 20/47</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto5" guid="b15b8bbd-2176-495a-90a4-3eaacdb3a072" href="3.- ARQ_TAB_PUE VS EST_files\cd020005.jpg" status="active" distance="-0.065">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="10.756" y="-9.422" z="2.840"/>
+            </clashpoint>
+            <gridlocation>3&apos;-C : Nivel 2 (+2.50)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="18" second="23"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>857369</value>
+                </objectattribute>
+                <layer>Nivel 1 (-0.06)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 1 (-0.06)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Puerta - 120</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Puerta - 120</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>650830</value>
+                </objectattribute>
+                <layer>N.O.G. (2) +3.54 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (2) +3.54 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 202  30/70</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 202  30/70</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto6" guid="5e796a9e-009c-4f0b-b9d5-75d222ee2419" href="3.- ARQ_TAB_PUE VS EST_files\cd020006.jpg" status="active" distance="-0.060">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="0.063" y="-26.176" z="-0.00000152"/>
+            </clashpoint>
+            <gridlocation>G&apos;-2 : Nivel 1 (-0.06)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="18" second="23"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>864799</value>
+                </objectattribute>
+                <layer>Nivel 1 (-0.06)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 1 (-0.06)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Puerta - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Puerta - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>294362</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto7" guid="1ebfe556-7040-4576-a337-0c016e3add6d" href="3.- ARQ_TAB_PUE VS EST_files\cd020007.jpg" status="active" distance="-0.055">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="31.206" y="-8.216" z="6.440"/>
+            </clashpoint>
+            <gridlocation>B&apos;-8 : Nivel 3 OFI (+5.90)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="18" second="23"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1104482</value>
+                </objectattribute>
+                <layer>Nivel 2 AUL (+3.60)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 AUL (+3.60)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Puerta - 130</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Puerta - 130</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>321383</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 306  30/70</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>Concrete, Cast-in-Place gray</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Concrete, Cast-in-Place gray</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto8" guid="6358b2c7-dc4b-4d25-afda-a09b8f6f9840" href="3.- ARQ_TAB_PUE VS EST_files\cd020008.jpg" status="active" distance="-0.055">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="21.206" y="-6.225" z="6.440"/>
+            </clashpoint>
+            <gridlocation>B-6 : Nivel 3 OFI (+5.90)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="18" second="23"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1104697</value>
+                </objectattribute>
+                <layer>Nivel 2 AUL (+3.60)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 AUL (+3.60)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Puerta - 130</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Puerta - 130</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>322172</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 306  30/70</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V. 306  30/70</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto9" guid="ff9c2215-4bb1-4663-a0fc-fa8ef4ae5dc3" href="3.- ARQ_TAB_PUE VS EST_files\cd020009.jpg" status="active" distance="-0.054">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="10.756" y="-9.380" z="6.440"/>
+            </clashpoint>
+            <gridlocation>3&apos;-C : Nivel 3 OFI (+5.90)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="18" second="23"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1105115</value>
+                </objectattribute>
+                <layer>Nivel 2 AUL (+3.60)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 2 AUL (+3.60)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Puerta - 120</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Puerta - 120</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>313286</value>
+                </objectattribute>
+                <layer>N.O.G. (3) +7.14 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (3) +7.14 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V. 306  30/70</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>Concrete, Cast-in-Place gray</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Concrete, Cast-in-Place gray</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Sólido</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto10" guid="d65a2164-28fd-47fc-a7b1-ff086f255c4b" href="3.- ARQ_TAB_PUE VS EST_files\cd020010.jpg" status="active" distance="-0.051">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="7.020" y="-12.893" z="13.300"/>
+            </clashpoint>
+            <gridlocation>D-3 : Nivel 5 (+11.86)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="18" second="23"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>1230690</value>
+                </objectattribute>
+                <layer>Nivel 4 - AUL (+10.80)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel 4 - AUL (+10.80)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Puerta - 130</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Puerta - 130</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>346211</value>
+                </objectattribute>
+                <layer>N.O.G. (5) +13.74 AUL</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (5) +13.74 AUL</node>
+                  <node>Armazón estructural</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                  <node>V.  505 30/200</node>
+                  <node>M_Concrete-Rectangular Beam</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>M_Concrete-Rectangular Beam</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Armazón estructural: M_Concrete-Rectangular Beam: V.  505 30/200</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto11" guid="0b1bd3d4-e9fb-4d67-94ef-a6adb9407d82" href="3.- ARQ_TAB_PUE VS EST_files\cd020011.jpg" status="active" distance="-0.041">
+            <description>Estático</description>
+            <resultstatus>Activo</resultstatus>
+            <clashpoint>
+              <pos3f x="21.663" y="-29.524" z="-3.560"/>
+            </clashpoint>
+            <gridlocation>6&apos;-G&apos;&apos; : Nivel -1 (-3.56)</gridlocation>
+            <createddate>
+              <date year="2021" month="2" day="15" hour="14" minute="18" second="23"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>538096</value>
+                </objectattribute>
+                <layer>Nivel -1 (-3.56)</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ARQ BIMSG.rvt</node>
+                  <node>Nivel -1 (-3.56)</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>Tabique Puerta - 200mm</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: Tabique Puerta - 200mm</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>210425</value>
+                </objectattribute>
+                <layer>N.O.G. (-1) -3.56</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>EST.rvt</node>
+                  <node>N.O.G. (-1) -3.56</node>
+                  <node>Muros</node>
+                  <node>Muro básico</node>
+                  <node>MHA 20</node>
+                  <node>Muro básico</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Muro básico</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Muros: Muro básico: MHA 20</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>

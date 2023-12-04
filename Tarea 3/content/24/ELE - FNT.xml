@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="m" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="m">
+    <clashtests>
+      <clashtest name="ELE - FNT" test_type="hard" status="ok" tolerance="0.001" merge_composites="1">
+        <linkage mode="none"/>
+        <rules/>
+        <summary total="2" new="2" active="0" reviewed="0" approved="0" resolved="0">
+          <testtype>Estático</testtype>
+          <teststatus>Aceptar</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Conflicto1" guid="6ae7ced1-8afa-4d49-9919-9b3299fabeff" href="ELE - FNT_files\cd060001.jpg" status="new" distance="-0.011">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.215" y="1.127" z="2.806"/>
+            </clashpoint>
+            <gridlocation>B-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="48" second="52"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>806249</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Aparatos eléctricos</node>
+                  <node>APARATO ELECTRICO</node>
+                  <node>Toma Doble 10A</node>
+                  <node>APARATO ELECTRICO</node>
+                  <node>Toma Doble 10A</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Toma Doble 10A</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Aparatos eléctricos</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>435768</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tuberías</node>
+                  <node>Tipos de tubería</node>
+                  <node>PPR - PN16</node>
+                  <node>Tipos de tubería</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tipos de tubería</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tuberías: Tipos de tubería: PPR - PN16</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Conflicto2" guid="21e5ee03-ed5b-435f-a2c5-dac4b2055a85" href="ELE - FNT_files\cd060002.jpg" status="new" distance="-0.003">
+            <description>Estático</description>
+            <resultstatus>Nuevo</resultstatus>
+            <clashpoint>
+              <pos3f x="-1.213" y="1.137" z="3.097"/>
+            </clashpoint>
+            <gridlocation>B-2.1 : Nivel 2</gridlocation>
+            <createddate>
+              <date year="2020" month="8" day="17" hour="4" minute="48" second="52"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>846525</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>ELEC Op. 2.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Tubos</node>
+                  <node>Tubo sin uniones</node>
+                  <node>Tubo PVC Clase 2</node>
+                  <node>Tubo sin uniones</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Tubo sin uniones</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Tubos: Tubo sin uniones: Tubo PVC Clase 2</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>ID de elemento</name>
+                  <value>435681</value>
+                </objectattribute>
+                <layer>Nivel 2</layer>
+                <pathlink>
+                  <node>Archivo</node>
+                  <node>Archivo</node>
+                  <node>FNT.rvt</node>
+                  <node>Nivel 2</node>
+                  <node>Uniones de tubería</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                  <node>M_Codo - PVC - Serie 40</node>
+                  <node>Estándar</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Elemento Nombre</name>
+                    <value>Estándar</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Elemento Tipo</name>
+                    <value>Uniones de tubería</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>
